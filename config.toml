@@ -19,7 +19,7 @@ theme = "elate"
   testimonials = "Books"
   services = "Code of Conduct"
   about = "Team"
-  contact = "About"
+  contact = "Special Thanks"
 
 [params.hero]
   title = "Women Who Go Tokyo"
@@ -35,20 +35,20 @@ theme = "elate"
   img = "img_8.jpg"
 
 [[params.intro.item]]
-  title = "Women Who Go Tokyo"
-  description = "毎月平日に集まって、Go の勉強会をしています。2020年2月からは Google Meet を利用したオンライン開催です。最近は「家計簿アプリをつくろう」というテーマでハンズオンを行っています。"
-  url = "https://womenwhogo-tokyo.connpass.com"
+  title = "Women Who Go Tokyo#41"
+  description = "直近のイベントなどを乗せる"
+  url = "https://womenwhogo-tokyo.connpass.com/event/175903/"
+  button = "イベントを確認する"
+  icon = "icon-rocket"
+  img = "img_10.jpg"
+
+[[params.intro.item]]
+  title = "Humans Who Go Tokyo もくもく合宿 2020 Day1〜5"
+  description = "直近のイベントなどを乗せる"
+  url = "https://womenwhogo-tokyo.connpass.com/event/174797/"
   button = "イベントを確認する"
   icon = "icon-wrench"
   img = "img_7.jpg"
-
-[[params.intro.item]]
-  title = "Go の書籍販売"
-  description = "技術書典で頒布した電子書籍を BOOTH で販売しています。Go がはじめての方には「いつでも Go」「Go Starter Book」を、Go がより大好きな方には「愛 Go 遊 Go ウィー Go！！」をおすすめしています。"
-  url = "https://womenwhogotokyo.booth.pm"
-  button = "本を購入する"
-  icon = "icon-rocket"
-  img = "img_10.jpg"
 
 [params.intro.video]
   enable = true
@@ -59,74 +59,62 @@ theme = "elate"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    title = "Labs"
+    description = 'Women Who Go Tokyo の運営メンバによって作られた Go のコードラボを公開しています。何か問題や間違いを発見した場合は、<a href="https://github.com/WomenWhoGoTokyo/codelab/issues" target="_blank">Issue</a> を起票してください。'
+    footertext = '<a href="https://github.com/WomenWhoGoTokyo/codelab/issues" target="_blank">https://github.com/WomenWhoGoTokyo/codelab/issues</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      alt = "Image1"
+      title = ""
+      subtitle = "Google Cloud Shell で Go の開発をはじめよう"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = ""
+      subtitle = "Google App Engine で Go を動かしてみよう"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = ""
+      subtitle = "Google Cloud Functions で Go を動かしてみよう"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = ""
+      subtitle = "Go の並行処理を体験してみよう"
 
 # Testimonials section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Books"
+    description = "技術書典で頒布した電子書籍を BOOTH で販売しています。Go がはじめての方には「いつでも Go」「Go Starter Book」を、Go がより大好きな方には「愛 Go 遊 Go ウィー Go！！」をおすすめしています。"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
-      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;あみぐるみ・クイズ・ツール・アルゴリズムやフレームワーク...思わず手を動かしたくなってしまう、ちょっとマニアックな Go 三昧盛りだくさんな一冊です！&rdquo;"
+      person = '<a href="https://womenwhogotokyo.booth.pm/items/1920519" target="_blank">愛 Go 遊 Go ウィー Go！！</a> <span class="subtext">¥ 1,000</span>'
       img = "person1.jpg"
-      alt = "Person1"
+      alt = "愛 Go 遊 Go ウィー Go！！"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
-      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Women Who Go Tokyo は、Go を楽しむためのコンテンツを用意しています。しかし、コンテ ンツを楽しむためは、いくつかの準備が必要になります。そのコンテンツを楽しむための準備、スタート地点となれるような本を無料で用意しました。&rdquo;"
+      person = '<a href="https://womenwhogotokyo.booth.pm/items/1920507/" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
       img = "person2.jpg"
-      alt = "Person2"
+      alt = "Go Starter Book"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
-      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      quote = "&ldquo;Go が大好きな人たちのハンズオン多めの本です！！Firestore × Go, 画像認識 × Go, Vim × Go ...幅広く取り扱っています。&rdquo;"
+      person = '<a href="https://womenwhogotokyo.booth.pm/items/1575386" target="_blank">いつでも Go</a> <span class="subtext">¥ 800</span>'
       img = "person3.jpg"
       alt = "Person3"
 
   # Services section: Code of Conduct
   [params.services]
     enable = true
-    title = "Services"
+    title = "Code of Conduct"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
 
     [[params.services.item]]
@@ -138,12 +126,32 @@ theme = "elate"
       title = "Web &amp; Interface"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
+
     [[params.services.item]]
       title = "Photo &amp; Video"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-video2"
 
-      [[params.services.item]]
+    [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-monitor"
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+      
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+    [[params.services.item]]
       title = "CMS &amp; eCommerce"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-monitor"
@@ -155,33 +163,9 @@ theme = "elate"
     description = "Women Who Go Tokyo の運営に携わるチームメンバを紹介します。"
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person1.jpg"
-      alt = "Person1"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
-      img = "person2.jpg"
-      alt = "Person2"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "saorio"
+      position = "xxxxx"
+      description = "xxxxx"
       img = "person3.jpg"
       alt = "Person3"
       social = [
@@ -191,9 +175,33 @@ theme = "elate"
       ]
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "akane"
+      position = "xxxxx"
+      description = "xxxxx"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "mom0tomo"
+      position = "xxxxx"
+      description = "xxxxx"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Miki"
+      position = "xxxxx"
+      description = "xxxxx"
       img = "person1.jpg"
       alt = "Person1"
       social = [
@@ -203,9 +211,9 @@ theme = "elate"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "Misaki"
+      position = "xxxxx"
+      description = "xxxxx"
       img = "person2.jpg"
       alt = "Person2"
       social = [
@@ -215,9 +223,9 @@ theme = "elate"
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      name = "micchie"
+      position = "xxxxx"
+      description = "xxxxx"
       img = "person3.jpg"
       alt = "Person3"
       social = [
@@ -264,13 +272,13 @@ theme = "elate"
       interval = 50
       speed = 5000
 
-  # Contact section: About
+  # Contact section: Contact
   [params.contact]
     enable = true
     map = false
     form = false
-    title = "About"
-    description = "Women Who Go Tokyo について...もう上の方にあるから、もうここでは必要無い気がする。"
+    title = "Special Thanks"
+    description = "tenntenn さんや knsh14 さんに運営をサポートしていただいている旨を書く。"
 
     # Available icons: http://simplelineicons.com/
     details = [
