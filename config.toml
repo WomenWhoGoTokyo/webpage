@@ -98,21 +98,21 @@ theme = "elate"
       person = '<a href="https://womenwhogotokyo.booth.pm/items/1920519" target="_blank">愛 Go 遊 Go ウィー Go！！</a> <span class="subtext">¥ 1,000</span>'
       img = "person1.jpg"
       alt = "愛 Go 遊 Go ウィー Go！！"
-      id = "1920519"
+      url = "https://womenwhogotokyo.booth.pm/items/1920519"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Women Who Go Tokyo は、Go を楽しむためのコンテンツを用意しています。しかし、コンテ ンツを楽しむためは、いくつかの準備が必要になります。そのコンテンツを楽しむための準備、スタート地点となれるような本を無料で用意しました。&rdquo;"
       person = '<a href="https://womenwhogotokyo.booth.pm/items/1920507/" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
       img = "person2.jpg"
       alt = "Go Starter Book"
-      id = "1920507"
+      url = "https://womenwhogotokyo.booth.pm/items/1920507"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Go が大好きな人たちのハンズオン多めの本です！！Firestore × Go, 画像認識 × Go, Vim × Go ...幅広く取り扱っています。&rdquo;"
       person = '<a href="https://womenwhogotokyo.booth.pm/items/1575386" target="_blank">いつでも Go</a> <span class="subtext">¥ 800</span>'
       img = "person3.jpg"
       alt = "Person3"
-      id = "1575386"
+      url = "https://womenwhogotokyo.booth.pm/items/1575386"
 
   # Services section: Code of Conduct
   [params.services]
