@@ -250,7 +250,7 @@ theme = "elate"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-envelope", "micchie@womenwhogo.tokyo"],
-        ["icon-globe", 'https://womenwhogo.tokyo']
+        ["icon-globe", 'https://web.womenwhogo.tokyo']
       ]
 
     name = "Name"
