@@ -154,39 +154,15 @@ theme = "elate"
     description = "Women Who Go Tokyo の運営に携わるチームメンバを紹介します。"
 
     [[params.about.item]]
-      name = "saorio"
-      position = "Organizer, Gopher"
-      description = "xxxxx"
-      img = "person_saorio.png"
-      alt = "saorio"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
-      name = "akane"
-      position = "Organizer, Gopher"
-      description = "xxxxx"
-      img = "person_akane.png"
-      alt = "akane"
-      social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
-      ]
-
-    [[params.about.item]]
       name = "mom0tomo"
       position = "Organizer, Gopher"
-      description = "xxxxx"
+      description = "最近インフラ部門に異動してアップアップしている見習い技術者です。micchie さんに誘われて Women Who Go Tokyo に参加したことをきっかけに、技術者としての道を歩み出しました。"
       img = "person_momo.png"
       alt = "mom0tomo"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "https://twitter.com/mom0tomo"],
+        ["icon-facebook", "https://www.facebook.com/mom0tomo"],
+        ["icon-github", "https://github.com/mom0tomo"]
       ]
 
     [[params.about.item]]
@@ -196,27 +172,27 @@ theme = "elate"
       img = "person_miki.jpg"
       alt = "Miki"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "https://twitter.com/mikisslv09"],
+        ["icon-github", "https://github.com/quwen"],
+        ["icon-dribbble", "#"]
       ]
 
     [[params.about.item]]
       name = "Misato"
       position = "Organizer, Gopher"
-      description = "月に一度、Women Who Go Tokyo で Go の勉強をしています。Go に親しんでいるうちにスタッフに。Go 以外では、NPO で Firebase のイベントの企画や個人開発で Flutter を勉強したりしています。お仕事では C# や DB のメンテなど製品開発や運用保守をしていています。"
+      description = "月に一度 Women Who Go Tokyo で Go の勉強をしています。Go に親しんでいるうちにスタッフに。Go 以外では、NPO で Firebase のイベントの企画や個人開発で Flutter を勉強したりしています。お仕事では C# や DB のメンテなど製品開発や運用保守をしていています。"
       img = "person_misato.jpg"
       alt = "Misato"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-twitter", "https://twitter.com/mikkegt"],
+        ["icon-dribbble", "#"],
+        ["icon-dribbble", "#"]
       ]
 
     [[params.about.item]]
       name = "micchie"
       position = "Organizer, Gopher"
-      description = "三度の飯と同じくらい好きな Go をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営に携わっています。Vim や業務設計、チームビルディング、シニアのキャリアや教育についても興味があります。仕事は、プロジェクトマネジャー兼エンジニアです。"
+      description = "三度の飯と同じくらい好きな Go をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営に携わっています。Vim や業務設計、チームビルディング、シニアのキャリアや教育についても興味があります。普段は、プロジェクトマネジャー兼エンジニアとして働いています。"
       img = "person_micchie.png"
       alt = "micchie"
       social = [
