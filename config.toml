@@ -125,7 +125,7 @@ theme = "elate"
     title = "Code of Conduct"
     description = "わたしたちは、Women Who Go Tokyo コミュニティの安心・安全のため、次の規範を作成しました。行動規範に違反するような行為を発見した場合は、イベントやコミュニティからの退出を求めます。"
     footertext = 'この行動規範は、[Go Community Code of Conduct](https://golang.org/conduct) をもとに作成しました。'
-    
+
 
     [[params.services.item]]
       title = "多くの人々を温かく迎え入れます"
@@ -140,7 +140,7 @@ theme = "elate"
     [[params.services.item]]
       title = "寛大であります"
       description = "他の人の意見の違いを尊重します。異議がある場合も、その人の主張を理解しようと努め、何かしら良い方に進められるような提案をします。"
-      icon = "icon-apple"
+      icon = "icon-heart"
 
     [[params.services.item]]
       title = "不適切と思われる発言・行為を許可しません"
