@@ -92,6 +92,13 @@ theme = "elate"
       subtitle = "Go の並行処理を体験してみよう"
       url = "https://womenwhogotokyo.github.io/codelab/tutorial-concurrency-go/?index=codelab#0"
 
+    [[params.work.row]]
+      img = "codelab_5.png"
+      alt = "数で遊ぼう"
+      title = "Play with number"
+      subtitle = "コマンドラインツールで数を操る"
+      url = "https://womenwhogotokyo.github.io/codelab/play-with-number/?index=codelab#0"
+
 # Testimonials section
   [params.testimonials]
     enable = true
