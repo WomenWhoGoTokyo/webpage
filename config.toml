@@ -92,6 +92,13 @@ theme = "elate"
       subtitle = "Go の並行処理を体験してみよう"
       url = "https://womenwhogotokyo.github.io/codelab/tutorial-concurrency-go/?index=codelab#0"
 
+      [[params.work.row]]
+      img = "codelab_6.jpg"
+      alt = "初めて編む Gopher"
+      title = "The First Gopher Amigurumi"
+      subtitle = "初めて編む Gopher"
+      url = "https://womenwhogotokyo.github.io/codelab/gopher-amigurumi/ja/?index=codelab#0"
+
 # Testimonials section
   [params.testimonials]
     enable = true
