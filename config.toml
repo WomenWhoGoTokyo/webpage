@@ -93,6 +93,13 @@ theme = "elate"
       url = "https://womenwhogotokyo.github.io/codelab/tutorial-concurrency-go/?index=codelab#0"
 
     [[params.work.row]]
+      img = "codelab_5.png"
+      alt = "数で遊ぼう"
+      title = "Play with number"
+      subtitle = "コマンドラインツールで数を操る"
+      url = "https://womenwhogotokyo.github.io/codelab/play-with-number/?index=codelab#0"
+
+    [[params.work.row]]
       img = "codelab_6.jpg"
       alt = "初めて編む Gopher"
       title = "The First Gopher Amigurumi"
