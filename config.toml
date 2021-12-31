@@ -186,7 +186,7 @@ theme = "elate"
       img = "person_miki.jpg"
       alt = "Miki"
       social = [
-        ["icon-twitter", "https://twitter.com/mikisslv09"],
+        ["icon-twitter", "https://twitter.com/mikiislv09"],
         ["icon-github", "https://github.com/quwen"],
         ["icon-dribbble", "#"]
       ]
