@@ -128,7 +128,7 @@ theme = "elate"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Goでいっぱいの実用的なあたたかい本をお届けします。なんと！おとうふくんの漫画入り！必読です！&rdquo;"
-      person = '<a href="https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968" target="_blank">コタツと蜜柑とゴーファーとわたし</a> <span class="subtext">¥ 800</span>'
+      person = '<a href="https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968" target="_blank">コタツと蜜柑とゴーファーとわたし</a> <span class="subtext">¥ 1,150</span>'
       img = "book_3.png"
       alt = "コタツと蜜柑とゴーファーとわたし"
       url = "https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968"
