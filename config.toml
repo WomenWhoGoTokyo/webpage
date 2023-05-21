@@ -35,7 +35,7 @@ theme = "elate"
 #   img = "img_8.jpg"
 
 [[params.intro.item]]
-  title = "Women Who Go Tokyo#42"
+  title = "Women Who Go Tokyo"
   description = "Goに関する本の読書会を毎週〜隔週で行っています。"
   url = "https://womenwhogo-tokyo.connpass.com/"
   button = "イベントを確認する"
