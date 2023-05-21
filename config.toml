@@ -25,30 +25,30 @@ theme = "elate"
   title = "Women Who Go Tokyo"
   subtitle = 'Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである <a href="https://www.womenwhogo.org" target="_blank" title="Women Who Go">Women Who Go</a> の東京支部です。'
 
-[params.intro]
-[[params.intro.item]]
-  title = "祝！Women Who Go Tokyo #40 記念 LT大会！"
-  description = 'Women Who Go Tokyo がついに40回目を迎えました。その記念に、技術書典 応援祭で頒布した書籍「愛 Go 遊 Go ウィー Go！！」の著者が LT を行いました。'
-  url = "https://womenwhogo-tokyo.connpass.com/event/172847/presentation/"
-  button = "発表資料を見てみよう"
-  icon = "icon-bulb"
-  img = "img_8.jpg"
+# [params.intro]
+# [[params.intro.item]]
+#   title = "祝！Women Who Go Tokyo #40 記念 LT大会！"
+#   description = 'Women Who Go Tokyo がついに40回目を迎えました。その記念に、技術書典 応援祭で頒布した書籍「愛 Go 遊 Go ウィー Go！！」の著者が LT を行いました。'
+#   url = "https://womenwhogo-tokyo.connpass.com/event/172847/presentation/"
+#   button = "発表資料を見てみよう"
+#   icon = "icon-bulb"
+#   img = "img_8.jpg"
 
 [[params.intro.item]]
-  title = "Women Who Go Tokyo#42"
-  description = "Go の基本的な文法とデータの読み書きについて、家計簿アプリをつくりながら学んでいます。はじめての方でも楽しく学べます。最近はオンライン開催で、動画も用意していく予定です。"
-  url = "https://womenwhogo-tokyo.connpass.com/event/178860/"
+  title = "Women Who Go Tokyo"
+  description = "Goに関する本の読書会を毎週〜隔週で行っています。"
+  url = "https://womenwhogo-tokyo.connpass.com/"
   button = "イベントを確認する"
   icon = "icon-rocket"
   img = "img_10.jpg"
 
-[[params.intro.item]]
-  title = "Humans Who Go Tokyo もくもく合宿 2020 Day1〜5"
-  description = "誰でも楽しく参加できるもくもく会を不定期で開催しています。2020年の GW はオンラインで Discord でコミュニケーションを取りながら毎日行いました。"
-  url = "https://womenwhogo-tokyo.connpass.com/event/174797/"
-  button = "イベントを確認する"
-  icon = "icon-wrench"
-  img = "img_7.jpg"
+# [[params.intro.item]]
+#   title = "Humans Who Go Tokyo もくもく合宿 2020 Day1〜5"
+#   description = "誰でも楽しく参加できるもくもく会を不定期で開催しています。2020年の GW はオンラインで Discord でコミュニケーションを取りながら毎日行いました。"
+#   url = "https://womenwhogo-tokyo.connpass.com/event/174797/"
+#   button = "イベントを確認する"
+#   icon = "icon-wrench"
+#   img = "img_7.jpg"
 
 [params.intro.video]
   enable = false
@@ -110,28 +110,28 @@ theme = "elate"
   [params.testimonials]
     enable = true
     title = "Books"
-    description = "技術書典で頒布した電子書籍を BOOTH で販売しています。Go がはじめての方には「いつでも Go」「Go Starter Book」を、Go がより大好きな方には「愛 Go 遊 Go ウィー Go！！」をおすすめしています。"
+    description = "技術書典で頒布した電子書籍を販売しています。"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;あみぐるみ・クイズ・ツール・アルゴリズムやフレームワーク...思わず手を動かしたくなってしまう、ちょっとマニアックな Go 三昧盛りだくさんな一冊です！&rdquo;"
-      person = '<a href="https://womenwhogotokyo.booth.pm/items/1920519" target="_blank">愛 Go 遊 Go ウィー Go！！</a> <span class="subtext">¥ 1,000</span>'
+      quote = "&ldquo;また出ました！夏を涼しく過ごすための爽やかな Go 本です。&rdquo;"
+      person = '<a href="https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168" target="_blank">Goでちょっとひといき</a> <span class="subtext">¥ 1,000</span>'
       img = "book_1.png"
-      alt = "愛 Go 遊 Go ウィー Go！！"
-      url = "https://womenwhogotokyo.booth.pm/items/1920519"
+      alt = "Goでちょっとひといき"
+      url = "https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168"
 
     [[params.testimonials.item]]
       quote = "&ldquo;Women Who Go Tokyo は、Go を楽しむためのコンテンツを用意しています。しかし、コンテ ンツを楽しむためは、いくつかの準備が必要になります。そのコンテンツを楽しむための準備、スタート地点となれるような本を無料で用意しました。&rdquo;"
-      person = '<a href="https://womenwhogotokyo.booth.pm/items/1920507/" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
+      person = '<a href="https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
       img = "book_2.png"
       alt = "Go Starter Book"
-      url = "https://womenwhogotokyo.booth.pm/items/1920507"
+      url = "https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Go が大好きな人たちのハンズオン多めの本です！！Firestore × Go, 画像認識 × Go, Vim × Go ...幅広く取り扱っています。&rdquo;"
-      person = '<a href="https://womenwhogotokyo.booth.pm/items/1575386" target="_blank">いつでも Go</a> <span class="subtext">¥ 800</span>'
+      quote = "&ldquo;Goでいっぱいの実用的なあたたかい本をお届けします。なんと！おとうふくんの漫画入り！必読です！&rdquo;"
+      person = '<a href="https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968" target="_blank">コタツと蜜柑とゴーファーとわたし</a> <span class="subtext">¥ 1,150</span>'
       img = "book_3.png"
-      alt = "Person3"
-      url = "https://womenwhogotokyo.booth.pm/items/1575386"
+      alt = "コタツと蜜柑とゴーファーとわたし"
+      url = "https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968"
 
   # Services section: Code of Conduct
   [params.services]
