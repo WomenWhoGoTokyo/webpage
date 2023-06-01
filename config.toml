@@ -25,14 +25,14 @@ theme = "elate"
   title = "Women Who Go Tokyo"
   subtitle = 'Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである <a href="https://www.womenwhogo.org" target="_blank" title="Women Who Go">Women Who Go</a> の東京支部です。'
 
-# [params.intro]
-# [[params.intro.item]]
-#   title = "祝！Women Who Go Tokyo #40 記念 LT大会！"
-#   description = 'Women Who Go Tokyo がついに40回目を迎えました。その記念に、技術書典 応援祭で頒布した書籍「愛 Go 遊 Go ウィー Go！！」の著者が LT を行いました。'
-#   url = "https://womenwhogo-tokyo.connpass.com/event/172847/presentation/"
-#   button = "発表資料を見てみよう"
-#   icon = "icon-bulb"
-#   img = "img_8.jpg"
+[params.intro]
+[[params.intro.item]]
+  title = ""
+  description = "Women Who Go Tokyo is the Tokyo chapter of the San Francisco-based Go community for women and gender minorities."
+  url = ""
+  button = ""
+  icon = "icon-bulb"
+  img = "img_8.jpg"
 
 [[params.intro.item]]
   title = "Women Who Go Tokyo"
@@ -42,13 +42,13 @@ theme = "elate"
   icon = "icon-rocket"
   img = "img_10.jpg"
 
-# [[params.intro.item]]
-#   title = "Humans Who Go Tokyo もくもく合宿 2020 Day1〜5"
-#   description = "誰でも楽しく参加できるもくもく会を不定期で開催しています。2020年の GW はオンラインで Discord でコミュニケーションを取りながら毎日行いました。"
-#   url = "https://womenwhogo-tokyo.connpass.com/event/174797/"
-#   button = "イベントを確認する"
-#   icon = "icon-wrench"
-#   img = "img_7.jpg"
+[[params.intro.item]]
+  title = " "
+  description = "We have weekly to bi-weekly book readings on Go."
+  url = ""
+  button = ""
+  icon = "icon-wrench"
+  img = "img_10.jpg"
 
 [params.intro.video]
   enable = false
