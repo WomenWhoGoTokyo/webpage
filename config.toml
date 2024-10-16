@@ -170,7 +170,7 @@ theme = "elate"
     [[params.about.item]]
       name = "mom0tomo"
       position = "Organizer, Gopher"
-      description = "最近インフラ部門に異動してアップアップしている見習い技術者です。micchie さんに誘われて Women Who Go Tokyo に参加したことをきっかけに、技術者としての道を歩み出しました。"
+      description = "インフラエンジニア・DX担当をしています。micchie さんに誘われて Women Who Go Tokyo に参加したことをきっかけに、技術者としての道を歩み出しました。"
       img = "person_momo.png"
       alt = "mom0tomo"
       social = [
