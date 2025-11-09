@@ -1,0 +1,81 @@
+name: Preview Hugo site on Firebase Hosting
+
+on:
+  pull_request:
+    paths:
+      - "**/*.html"
+      - "config.toml"
+      - "layouts/**"
+      - "static/**"
+      - "themes/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  # Hugo の最低バージョン要件 (config.toml の [module.hugoVersion].min) に合わせる
+  HUGO_VERSION: 0.148.1
+  FIREBASE_PROJECT: wwgt-webpage
+
+jobs:
+  build:
+    name: Build Preview
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Hugo
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: Hugo Version
+        run: hugo version
+
+      - name: Build site (preview)
+        run: hugo --minify -e production
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: public
+          path: public
+          retention-days: 3
+
+  deploy-preview:
+    name: Deploy Preview Channel
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: public
+          path: public
+
+      - name: Deploy Preview
+        uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_WWGT_WEBPAGE }}"
+          projectId: ${{ env.FIREBASE_PROJECT }}
+          expires: 7d
+
+      - name: Comment Preview URL
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const deployUrl = process.env.DEPLOY_URL || '';
+            const body = deployUrl
+              ? `✅ Firebase Preview デプロイ完了\n\nURL: ${deployUrl}`
+              : '✅ Firebase Preview デプロイ完了 (URL は Deploy ステップログを参照してください)';
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body
+            });
