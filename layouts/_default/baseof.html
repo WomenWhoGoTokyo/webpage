@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ site.Params.description }}" />
+  <meta property="og:site_name" content="{{ site.Title }}" />
+  <meta property="og:title"
+    content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} | {{ site.Title }}{{ end }}" />
+  <meta property="og:description" content="{{ site.Params.description }}" />
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ with site.Params.favicon }}
+  <link rel="icon" href="{{ . | relURL }}" />{{ end }}
+  {{ range site.Params.custom_css }}
+  <link rel="stylesheet" href="{{ . | relURL }}" />{{ end }}
+  {{ block "head_extra" . }}{{ end }}
+</head>
+
+<body>
+  <a class="skip-link" href="#main"
+    style="position:absolute;left:-999px;top:auto;width:1px;height:1px;overflow:hidden;">Skip to content</a>
+  <header class="site-header" style="padding:1rem 0;text-align:center;">
+    <nav aria-label="Main navigation">
+      <ul style="list-style:none;padding:0;margin:0;display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+        {{ $nav := site.Params.navigation }}
+        {{ with $nav.home }}<li><a href="/">{{ . }}</a></li>{{ end }}
+        {{ with $nav.work }}<li><a href="#fh5co-work">{{ . }}</a></li>{{ end }}
+        {{ with $nav.testimonials }}<li><a href="#fh5co-testimonials">{{ . }}</a></li>{{ end }}
+        {{ with $nav.services }}<li><a href="#fh5co-services">{{ . }}</a></li>{{ end }}
+        {{ with $nav.about }}<li><a href="#fh5co-about">{{ . }}</a></li>{{ end }}
+        {{ with $nav.contact }}<li><a href="#fh5co-contact">{{ . }}</a></li>{{ end }}
+      </ul>
+    </nav>
+    <h1 class="site-title" style="margin:1rem 0 0;">{{ site.Title }}</h1>
+  </header>
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer style="text-align:center;margin:3rem 0 1rem;">
+    {{ with site.Params.footer.links }}
+    <p>
+      {{ range . }}<a style="margin:0 .5rem;" href="{{ index . 1 }}" target="_blank" rel="noopener"><i
+          class="{{ index . 0 }}"></i></a>{{ end }}
+    </p>
+    {{ end }}
+    <small>{{ site.Params.footer.copyright | safeHTML }}</small>
+  </footer>
+  {{ block "body_end" . }}{{ end }}
+</body>
+
+</html>
