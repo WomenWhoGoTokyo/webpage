@@ -2,16 +2,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 section-heading text-center">
-				<h2 class="to-animate">{{ with .Site.Params.work.title }}{{ . }}{{ end }}</h2>
+				<h2 class="to-animate">{{ with site.Params.work.title }}{{ . }}{{ end }}</h2>
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 subtext to-animate">
-						<h3>{{ with .Site.Params.work.description }}{{ . | markdownify }}{{ end }}</h3>
+						<h3>{{ with site.Params.work.description }}{{ . | markdownify }}{{ end }}</h3>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row row-bottom-padded-sm">
-			{{ range .Site.Params.work.row }}
+			{{ range site.Params.work.row }}
 			<div class="col-md-4 col-sm-6 col-xxs-12">
 				<a href="{{ .url }}" class="fh5co-project-item" target="_blank">
 					<img src="images/{{ .img }}" alt="{{ .alt }}" class="img-responsive">
@@ -27,8 +27,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-12 text-center to-animate">
-				<p>{{ .Site.Params.work.footertext | markdownify }}</p>
-				<p>{{ .Site.Params.work.annotation | markdownify }}</p>
+				<p>{{ site.Params.work.footertext | markdownify }}</p>
+				<p>{{ site.Params.work.annotation | markdownify }}</p>
 			</div>
 		</div>
 	</div>
