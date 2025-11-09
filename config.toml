@@ -4,280 +4,328 @@ title = "Women Who Go Tokyo"
 theme = "elate"
 
 [params]
-  custom_css = ["css/custom.css"]
-  author = "Women Who Go Tokyo"
-  description = "Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。"
-  email = "micchie@womenwhogo.tokyo"
+custom_css = ["css/custom.css"]
+author = "Women Who Go Tokyo"
+description = "Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。"
+email = "micchie@womenwhogo.tokyo"
 
-  # Google Maps Javascript API Key (if not set will default to not passing a key)
-  googleMapsApiKey = ""
+# Google Maps Javascript API Key (if not set will default to not passing a key)
+googleMapsApiKey = ""
 
 [params.navigation]
-  brand = "Women Who Go Tokyo"
-  home = "Home"
-  work = "Labs"
-  testimonials = "Books"
-  services = "Code of Conduct"
-  about = "Team"
-  contact = "Special Thanks"
+brand = "Women Who Go Tokyo"
+home = "Home"
+work = "Labs"
+testimonials = "Books"
+services = "Code of Conduct"
+about = "Team"
+contact = "Special Thanks"
 
 [params.hero]
-  title = "Women Who Go Tokyo"
-  subtitle = 'Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである <a href="https://www.womenwhogo.org" target="_blank" title="Women Who Go">Women Who Go</a> の東京支部です。'
+title = "Women Who Go Tokyo"
+subtitle = 'Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである <a href="https://www.womenwhogo.org" target="_blank" title="Women Who Go">Women Who Go</a> の東京支部です。'
 
 [params.intro]
 [[params.intro.item]]
-  title = ""
-  description = "Women Who Go Tokyo is the Tokyo chapter of the San Francisco-based Go community for women and gender minorities."
-  url = ""
-  button = ""
-  icon = "icon-bulb"
-  img = "img_8.jpg"
+title = ""
+description = "Women Who Go Tokyo is the Tokyo chapter of the San Francisco-based Go community for women and gender minorities."
+url = ""
+button = ""
+icon = "icon-bulb"
+img = "img_8.jpg"
 
 [[params.intro.item]]
-  title = "Women Who Go Tokyo"
-  description = "Goに関する本の読書会を毎週〜隔週で行っています。"
-  url = "https://womenwhogo-tokyo.connpass.com/"
-  button = "イベントを確認する"
-  icon = "icon-rocket"
-  img = "img_10.jpg"
+title = "Women Who Go Tokyo"
+description = "Goに関する本の読書会を毎週〜隔週で行っています。"
+url = "https://womenwhogo-tokyo.connpass.com/"
+button = "イベントを確認する"
+icon = "icon-rocket"
+img = "img_10.jpg"
 
 [[params.intro.item]]
-  title = " "
-  description = "We have weekly to bi-weekly book readings on Go."
-  url = ""
-  button = ""
-  icon = "icon-wrench"
-  img = "img_10.jpg"
+title = " "
+description = "We have weekly to bi-weekly book readings on Go."
+url = ""
+button = ""
+icon = "icon-wrench"
+img = "img_10.jpg"
 
 [params.intro.video]
-  enable = false
-  title = "Women Who Go Tokyo#39 家計簿アプリをつくろう STEP01〜03"
-  icon = "icon-play2"
-  url = "https://youtu.be/hK1MW4ypNp0"
+enable = false
+title = "Women Who Go Tokyo#39 家計簿アプリをつくろう STEP01〜03"
+icon = "icon-play2"
+url = "https://youtu.be/hK1MW4ypNp0"
 
-  # Work section
-  [params.work]
-    enable = true
-    title = "Labs"
-    description = 'Women Who Go Tokyo の運営メンバによって作られた Go のコードラボを公開しています。作成された時期によっては情報が古い可能性があります。'
-    footertext = '<a href="https://github.com/WomenWhoGoTokyo/codelab/issues" target="_blank">https://github.com/WomenWhoGoTokyo/codelab/issues</a>'
-    annotation = '何か問題や間違いを発見した場合は、Issue を起票してご連絡ください。'
+# Work section
+[params.work]
+enable = true
+title = "Labs"
+description = 'Women Who Go Tokyo の運営メンバによって作られた Go のコードラボを公開しています。作成された時期によっては情報が古い可能性があります。'
+footertext = '<a href="https://github.com/WomenWhoGoTokyo/codelab/issues" target="_blank">https://github.com/WomenWhoGoTokyo/codelab/issues</a>'
+annotation = '何か問題や間違いを発見した場合は、Issue を起票してご連絡ください。'
 
-    [[params.work.row]]
-      img = "codelab_1.jpg"
-      alt = "Google Cloud Shell で Go の開発をはじめよう"
-      title = "Google Cloud Shell"
-      subtitle = "Google Cloud Shell で Go の開発をはじめよう"
-      url = "https://womenwhogotokyo.github.io/codelab/google-cloud-shell-go/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_1.jpg"
+alt = "Google Cloud Shell で Go の開発をはじめよう"
+title = "Google Cloud Shell"
+subtitle = "Google Cloud Shell で Go の開発をはじめよう"
+url = "https://womenwhogotokyo.github.io/codelab/google-cloud-shell-go/?index=codelab#0"
 
-    [[params.work.row]]
-      img = "codelab_2.jpg"
-      alt = "Google App Engine で Go を動かしてみよう"
-      title = "Google App Engine/Go"
-      subtitle = "Google App Engine で Go を動かしてみよう"
-      url = "https://womenwhogotokyo.github.io/codelab/google-app-engine-go/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_2.jpg"
+alt = "Google App Engine で Go を動かしてみよう"
+title = "Google App Engine/Go"
+subtitle = "Google App Engine で Go を動かしてみよう"
+url = "https://womenwhogotokyo.github.io/codelab/google-app-engine-go/?index=codelab#0"
 
-    [[params.work.row]]
-      img = "codelab_3.jpg"
-      alt = "Google Cloud Functions で Go を動かしてみよう"
-      title = "Google Cloud Functions/Go"
-      subtitle = "Google Cloud Functions で Go を動かしてみよう"
-      url = "https://womenwhogotokyo.github.io/codelab/google-cloud-functions-go/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_3.jpg"
+alt = "Google Cloud Functions で Go を動かしてみよう"
+title = "Google Cloud Functions/Go"
+subtitle = "Google Cloud Functions で Go を動かしてみよう"
+url = "https://womenwhogotokyo.github.io/codelab/google-cloud-functions-go/?index=codelab#0"
 
-    [[params.work.row]]
-      img = "codelab_4.jpg"
-      alt = "Go の並行処理を体験してみよう"
-      title = "Concurrency in Go"
-      subtitle = "Go の並行処理を体験してみよう"
-      url = "https://womenwhogotokyo.github.io/codelab/tutorial-concurrency-go/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_4.jpg"
+alt = "Go の並行処理を体験してみよう"
+title = "Concurrency in Go"
+subtitle = "Go の並行処理を体験してみよう"
+url = "https://womenwhogotokyo.github.io/codelab/tutorial-concurrency-go/?index=codelab#0"
 
-    [[params.work.row]]
-      img = "codelab_5.png"
-      alt = "数で遊ぼう"
-      title = "Play with number"
-      subtitle = "コマンドラインツールで数を操る"
-      url = "https://womenwhogotokyo.github.io/codelab/play-with-number/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_5.png"
+alt = "数で遊ぼう"
+title = "Play with number"
+subtitle = "コマンドラインツールで数を操る"
+url = "https://womenwhogotokyo.github.io/codelab/play-with-number/?index=codelab#0"
 
-    [[params.work.row]]
-      img = "codelab_6.jpg"
-      alt = "初めて編む Gopher"
-      title = "The First Gopher Amigurumi"
-      subtitle = "初めて編む Gopher"
-      url = "https://womenwhogotokyo.github.io/codelab/gopher-amigurumi/ja/?index=codelab#0"
+[[params.work.row]]
+img = "codelab_6.jpg"
+alt = "初めて編む Gopher"
+title = "The First Gopher Amigurumi"
+subtitle = "初めて編む Gopher"
+url = "https://womenwhogotokyo.github.io/codelab/gopher-amigurumi/ja/?index=codelab#0"
 
 # Testimonials section
-  [params.testimonials]
-    enable = true
-    title = "Books"
-    description = "技術書典で頒布した電子書籍を販売しています。"
+[params.testimonials]
+enable = true
+title = "Books"
+description = "技術書典で頒布した電子書籍を販売しています。"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;また出ました！夏を涼しく過ごすための爽やかな Go 本です。&rdquo;"
-      person = '<a href="https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168" target="_blank">Goでちょっとひといき</a> <span class="subtext">¥ 1,000</span>'
-      img = "book_1.png"
-      alt = "Goでちょっとひといき"
-      url = "https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168"
+[[params.testimonials.item]]
+quote = "&ldquo;また出ました！夏を涼しく過ごすための爽やかな Go 本です。&rdquo;"
+person = '<a href="https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168" target="_blank">Goでちょっとひといき</a> <span class="subtext">¥ 1,000</span>'
+img = "book_1.png"
+alt = "Goでちょっとひといき"
+url = "https://techbookfest.org/product/5127270203129856?productVariantID=5036058678919168"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Women Who Go Tokyo は、Go を楽しむためのコンテンツを用意しています。しかし、コンテ ンツを楽しむためは、いくつかの準備が必要になります。そのコンテンツを楽しむための準備、スタート地点となれるような本を無料で用意しました。&rdquo;"
-      person = '<a href="https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
-      img = "book_2.png"
-      alt = "Go Starter Book"
-      url = "https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952"
+[[params.testimonials.item]]
+quote = "&ldquo;Women Who Go Tokyo は、Go を楽しむためのコンテンツを用意しています。しかし、コンテ ンツを楽しむためは、いくつかの準備が必要になります。そのコンテンツを楽しむための準備、スタート地点となれるような本を無料で用意しました。&rdquo;"
+person = '<a href="https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952" target="_blank">Go Starter Book</a> <span class="subtext">¥ 0</span>'
+img = "book_2.png"
+alt = "Go Starter Book"
+url = "https://techbookfest.org/product/6027682022162432?productVariantID=5061460677885952"
 
-    [[params.testimonials.item]]
-      quote = "&ldquo;Goでいっぱいの実用的なあたたかい本をお届けします。なんと！おとうふくんの漫画入り！必読です！&rdquo;"
-      person = '<a href="https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968" target="_blank">コタツと蜜柑とゴーファーとわたし</a> <span class="subtext">¥ 1,150</span>'
-      img = "book_3.png"
-      alt = "コタツと蜜柑とゴーファーとわたし"
-      url = "https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968"
+[[params.testimonials.item]]
+quote = "&ldquo;Goでいっぱいの実用的なあたたかい本をお届けします。なんと！おとうふくんの漫画入り！必読です！&rdquo;"
+person = '<a href="https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968" target="_blank">コタツと蜜柑とゴーファーとわたし</a> <span class="subtext">¥ 1,150</span>'
+img = "book_3.png"
+alt = "コタツと蜜柑とゴーファーとわたし"
+url = "https://techbookfest.org/product/5085406250926080?productVariantID=5123941720915968"
 
-  # Services section: Code of Conduct
-  [params.services]
-    enable = true
-    title = "Code of Conduct"
-    description = "わたしたちは、Women Who Go Tokyo コミュニティの安心・安全のため、次の規範を作成しました。行動規範に違反するような行為を発見した場合は、イベントやコミュニティからの退出を求めます。"
-    footertext = 'この行動規範は、[Go Community Code of Conduct](https://golang.org/conduct) をもとに作成しました。'
+# Services section: Code of Conduct
+[params.services]
+enable = true
+title = "Code of Conduct"
+description = "わたしたちは、Women Who Go Tokyo コミュニティの安心・安全のため、次の規範を作成しました。行動規範に違反するような行為を発見した場合は、イベントやコミュニティからの退出を求めます。"
+footertext = 'この行動規範は、[Go Community Code of Conduct](https://golang.org/conduct) をもとに作成しました。'
 
 
-    [[params.services.item]]
-      title = "多くの人々を温かく迎え入れます"
-      description = "性別上マイノリティであるというだけで、イベントやコミュニティに参加する際に不安を感じるような状況をなくします男性を排除することは私たちの目的ではありません。"
-      icon = "icon-bullhorn"
+[[params.services.item]]
+title = "多くの人々を温かく迎え入れます"
+description = "性別上マイノリティであるというだけで、イベントやコミュニティに参加する際に不安を感じるような状況をなくします男性を排除することは私たちの目的ではありません。"
+icon = "icon-bullhorn"
 
-    [[params.services.item]]
-      title = "思慮深く、そして敬意を持ちます"
-      description = "わたしたちは、言葉遣いに気をつけ、コメントする前に今一度内容を振り返ります。すべての意見を尊重し、個人や団体に対する非生産的、攻撃的なコメントはしません。"
-      icon = "icon-sun"
+[[params.services.item]]
+title = "思慮深く、そして敬意を持ちます"
+description = "わたしたちは、言葉遣いに気をつけ、コメントする前に今一度内容を振り返ります。すべての意見を尊重し、個人や団体に対する非生産的、攻撃的なコメントはしません。"
+icon = "icon-sun"
 
-    [[params.services.item]]
-      title = "寛大であります"
-      description = "他の人の意見の違いを尊重します。異議がある場合も、その人の主張を理解しようと努め、何かしら良い方に進められるような提案をします。"
-      icon = "icon-heart"
+[[params.services.item]]
+title = "寛大であります"
+description = "他の人の意見の違いを尊重します。異議がある場合も、その人の主張を理解しようと努め、何かしら良い方に進められるような提案をします。"
+icon = "icon-heart"
 
-    [[params.services.item]]
-      title = "不適切と思われる発言・行為を許可しません"
-      description = "性的・暴力的・侮辱的・中傷的・差別的な言葉や画像の使用を許可しません。また、あらゆるハラスメント行為も許可しません。また、許可なく他者の個人情報を公開することも行いません。"
-      icon = "icon-bomb"
+[[params.services.item]]
+title = "不適切と思われる発言・行為を許可しません"
+description = "性的・暴力的・侮辱的・中傷的・差別的な言葉や画像の使用を許可しません。また、あらゆるハラスメント行為も許可しません。また、許可なく他者の個人情報を公開することも行いません。"
+icon = "icon-bomb"
 
-  # About section: Team
-  [params.about]
-    enable = true
-    title = "Team"
-    description = "Women Who Go Tokyo の運営に携わるチームメンバを紹介します。"
+# About section: Team
+[params.about]
+enable = true
+title = "Team"
+description = "Women Who Go Tokyo の運営に携わるチームメンバを紹介します。"
 
-    [[params.about.item]]
-      name = "mom0tomo"
-      position = "Organizer, Gopher"
-      description = "インフラエンジニア・DX担当をしています。micchie さんに誘われて Women Who Go Tokyo に参加したことをきっかけに、技術者としての道を歩み出しました。"
-      img = "person_momo.png"
-      alt = "mom0tomo"
-      social = [
-        ["icon-twitter", "https://twitter.com/mom0tomo"],
-        ["icon-facebook", "https://www.facebook.com/mom0tomo"],
-        ["icon-github", "https://github.com/mom0tomo"]
-      ]
+[[params.about.item]]
+name = "mom0tomo"
+position = "Organizer, Gopher"
+description = "インフラエンジニア・DX担当をしています。micchie さんに誘われて Women Who Go Tokyo に参加したことをきっかけに、技術者としての道を歩み出しました。"
+img = "person_momo.png"
+alt = "mom0tomo"
+social = [
+  [
+    "icon-twitter",
+    "https://twitter.com/mom0tomo",
+  ],
+  [
+    "icon-facebook",
+    "https://www.facebook.com/mom0tomo",
+  ],
+  [
+    "icon-github",
+    "https://github.com/mom0tomo",
+  ],
+]
 
-    [[params.about.item]]
-      name = "Miki"
-      position = "Organizer, Gopher"
-      description = "ソフトウェアエンジニアを目指して2019年の秋に Go を始めたところ、すぐに Go が好きになってそのままWomen Who Go Tokyo のスタッフになりました。以前は Azure の構築・運用のお仕事を担当。普段は猫3匹と遊びつつ編み物しています。"
-      img = "person_miki.jpg"
-      alt = "Miki"
-      social = [
-        ["icon-twitter", "https://twitter.com/mikiislv09"],
-        ["icon-github", "https://github.com/quwen"],
-        ["icon-dribbble", "#"]
-      ]
+[[params.about.item]]
+name = "Miki"
+position = "Organizer, Gopher"
+description = "ソフトウェアエンジニアを目指して2019年の秋に Go を始めたところ、すぐに Go が好きになってそのままWomen Who Go Tokyo のスタッフになりました。以前は Azure の構築・運用のお仕事を担当。普段は猫3匹と遊びつつ編み物しています。"
+img = "person_miki.jpg"
+alt = "Miki"
+social = [
+  [
+    "icon-twitter",
+    "https://twitter.com/mikiislv09",
+  ],
+  [
+    "icon-github",
+    "https://github.com/quwen",
+  ],
+  [
+    "icon-dribbble",
+    "#",
+  ],
+]
 
-    [[params.about.item]]
-      name = "Misato"
-      position = "Organizer, Gopher"
-      description = "月に一度 Women Who Go Tokyo で Go の勉強をしています。Go に親しんでいるうちにスタッフに。Go 以外では、NPO で Firebase のイベントの企画や個人開発で Flutter を勉強したりしています。お仕事では C# や DB のメンテなど製品開発や運用保守をしていています。"
-      img = "person_misato.jpg"
-      alt = "Misato"
-      social = [
-        ["icon-twitter", "https://twitter.com/mikkegt"],
-        ["icon-dribbble", "#"],
-        ["icon-dribbble", "#"]
-      ]
+[[params.about.item]]
+name = "Misato"
+position = "Organizer, Gopher"
+description = "月に一度 Women Who Go Tokyo で Go の勉強をしています。Go に親しんでいるうちにスタッフに。Go 以外では、NPO で Firebase のイベントの企画や個人開発で Flutter を勉強したりしています。お仕事では C# や DB のメンテなど製品開発や運用保守をしていています。"
+img = "person_misato.jpg"
+alt = "Misato"
+social = [
+  [
+    "icon-twitter",
+    "https://twitter.com/mikkegt",
+  ],
+  [
+    "icon-dribbble",
+    "#",
+  ],
+  [
+    "icon-dribbble",
+    "#",
+  ],
+]
 
-    [[params.about.item]]
-      name = "micchie"
-      position = "Organizer, Gopher"
-      description = "三度の飯と同じくらい好きな Go をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営に携わっています。Vim や業務設計、チームビルディング、シニアのキャリアや教育についても興味があります。普段は、プロジェクトマネジャー兼エンジニアとして働いています。"
-      img = "person_micchie.png"
-      alt = "micchie"
-      social = [
-        ["icon-twitter", "https://twitter.com/micchiebear"],
-        ["icon-facebook", "https://www.facebook.com/michiru.shirakawa"],
-        ["icon-github", "https://github.com/mi-bear"]
-      ]
+[[params.about.item]]
+name = "micchie"
+position = "Organizer, Gopher"
+description = "三度の飯と同じくらい好きな Go をもっと多くの人にも楽しんでもらいたくて、Go コミュニティの運営に携わっています。Vim や業務設計、チームビルディング、シニアのキャリアや教育についても興味があります。普段は、プロジェクトマネジャー兼エンジニアとして働いています。"
+img = "person_micchie.png"
+alt = "micchie"
+social = [
+  [
+    "icon-twitter",
+    "https://twitter.com/micchiebear",
+  ],
+  [
+    "icon-facebook",
+    "https://www.facebook.com/michiru.shirakawa",
+  ],
+  [
+    "icon-github",
+    "https://github.com/mi-bear",
+  ],
+]
 
-  # Counters section
-  [params.counters]
-    enable = false
-    title = "Stats"
-    background = "full_image_1.jpg"
+# Counters section
+[params.counters]
+enable = false
+title = "Stats"
+background = "full_image_1.jpg"
 
-    [[params.counters.item]]
-      description = "Finished projects"
-      icon = "icon-briefcase"
-      from = 0
-      to = 0
-      interval = 50
-      speed = 5000
+[[params.counters.item]]
+description = "Finished projects"
+icon = "icon-briefcase"
+from = 0
+to = 0
+interval = 50
+speed = 5000
 
-    [[params.counters.item]]
-      description = "Lines of code"
-      icon = "icon-code"
-      from = 0
-      to = 0
-      interval = 50
-      speed = 5000
+[[params.counters.item]]
+description = "Lines of code"
+icon = "icon-code"
+from = 0
+to = 0
+interval = 50
+speed = 5000
 
-    [[params.counters.item]]
-      description = "Cups of coffee"
-      icon = "icon-cup"
-      from = 0
-      to = 0
-      interval = 50
-      speed = 5000
+[[params.counters.item]]
+description = "Cups of coffee"
+icon = "icon-cup"
+from = 0
+to = 0
+interval = 50
+speed = 5000
 
-    [[params.counters.item]]
-      description = "Happy clients"
-      icon = "icon-people"
-      from = 0
-      to = 0
-      interval = 50
-      speed = 5000
+[[params.counters.item]]
+description = "Happy clients"
+icon = "icon-people"
+from = 0
+to = 0
+interval = 50
+speed = 5000
 
-  # Contact section: Contact
-  [params.contact]
-    enable = true
-    map = false
-    form = false
-    title = "Special Thanks"
-    description = "イベントの参加者については女性とジェンダーマイノリティの方々に限定していますが、講師やチューター、運営のボランティアとして性別に関わらず多くの方々にご支援、ご賛同いただき活動してきました。毎月の開催にあたり、教材や開催場所を提供してくださっている tenntenn さん、knsh14 さん、そしてコミュニティ立ち上げ時に特にお世話になった makotano さん、evalphobia さん、そして多くの Gopher の皆様に深く感謝します。"
+# Contact section: Contact
+[params.contact]
+enable = true
+map = false
+form = false
+title = "Special Thanks"
+description = "イベントの参加者については女性とジェンダーマイノリティの方々に限定していますが、講師やチューター、運営のボランティアとして性別に関わらず多くの方々にご支援、ご賛同いただき活動してきました。毎月の開催にあたり、教材や開催場所を提供してくださっている tenntenn さん、knsh14 さん、そしてコミュニティ立ち上げ時に特にお世話になった makotano さん、evalphobia さん、そして多くの Gopher の皆様に深く感謝します。"
 
-    # Available icons: http://simplelineicons.com/
-    details = [
-        ["icon-envelope", "micchie@womenwhogo.tokyo"],
-        ["icon-globe", 'https://web.womenwhogo.tokyo']
-      ]
+# Available icons: http://simplelineicons.com/
+details = [
+  [
+    "icon-envelope",
+    "micchie@womenwhogo.tokyo",
+  ],
+  [
+    "icon-globe",
+    'https://web.womenwhogo.tokyo',
+  ],
+]
 
-    name = "Name"
-    email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+name = "Name"
+email = "Email"
+phone = "Phone"
+message = "Message"
+button = "Send message"
 
-  # Footer section
-  [params.footer]
-    enable = true
-    copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
-    links = [
-        ["icon-twitter", "https://twitter.com/wwg_tokyo"],
-        ["icon-youtube", "https://www.youtube.com/channel/UCXjeaS6CWwuNVBOIytnDIdg"]
-      ]
+# Footer section
+[params.footer]
+enable = true
+copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
+links = [
+  [
+    "icon-twitter",
+    "https://twitter.com/wwg_tokyo",
+  ],
+  [
+    "icon-youtube",
+    "https://www.youtube.com/channel/UCXjeaS6CWwuNVBOIytnDIdg",
+  ],
+]
