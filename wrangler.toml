@@ -1,0 +1,6 @@
+name = "web-womenwhogo-tokyo"
+compatibility_date = "2025-11-24"
+
+[assets]
+directory = "./public"
+not_found_handling = "404-page"
