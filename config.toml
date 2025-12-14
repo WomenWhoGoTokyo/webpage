@@ -1,7 +1,7 @@
 baseURL = "http://localhost:1313/"
 languageCode = "ja"
 title = "Women Who Go Tokyo"
-theme = "elate"
+theme = "github.com/saey55/hugo-elate-theme"
 
 [module]
 [module.hugoVersion]
