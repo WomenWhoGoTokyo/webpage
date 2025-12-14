@@ -1,3 +1,29 @@
 .personal-image {
 	padding-top: 70px;
 }
+
+/* 10th Anniversary LP Styles */
+body.page-10th-anniversary {
+	background-color: #effd7f;
+	color: #333;
+	font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.pattern-dots {
+	background-image: radial-gradient(#1a73e8 15%, transparent 16%), radial-gradient(#1a73e8 15%, transparent 16%);
+	background-size: 20px 20px;
+	background-position: 0 0, 10px 10px;
+	opacity: 0.1;
+}
+
+.text-stroke-white {
+	-webkit-text-stroke: 1.5px white;
+}
+
+.text-stroke-dark {
+	-webkit-text-stroke: 1.5px #333;
+}
+
+.text-stroke-none {
+	-webkit-text-stroke: 0;
+}

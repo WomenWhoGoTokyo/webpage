@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | {{ .Site.Title }}</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700;900&family=M+PLUS+Rounded+1c:wght@400;500;800;900&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/custom.css">
+
+  <!-- Tailwind CSS (Play CDN) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Tailwind Configuration -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            pop: {
+              blue: '#1a73e8',
+              yellow: '#effd7f',
+              pink: '#ff80ab',
+              dark: '#333333',
+              bg: '#fffff0',
+              light: '#e8f0fe',
+            }
+          },
+          fontFamily: {
+            sans: ['"M PLUS Rounded 1c"', 'sans-serif'],
+            en: ['"Jost"', 'sans-serif'],
+          },
+          boxShadow: {
+            'hard': '4px 4px 0px 0px #333333',
+            'hard-lg': '8px 8px 0px 0px #333333',
+            'hard-xl': '12px 12px 0px 0px #333333',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="overflow-x-hidden flex flex-col min-h-screen page-10th-anniversary">
+  <!-- Header -->
+  <header class="container mx-auto px-4 py-6">
+    <nav
+      class="bg-white border-2 border-pop-dark rounded-full px-6 py-3 flex justify-between items-center shadow-hard z-50 relative">
+      <span class="font-black text-xl text-pop-blue tracking-tighter">
+        WWG<span class="text-pop-dark">.TOKYO</span>
+      </span>
+      <a href="https://womenwhogo-tokyo.connpass.com/event/376133/"
+        class="bg-pop-blue text-white px-4 py-2 rounded-full font-bold border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333] hover:translate-y-[2px] hover:shadow-none transition-all text-sm">
+        参加登録！
+      </a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <div class="relative py-16 md:py-24 text-center overflow-hidden">
+    <div class="absolute inset-0 pattern-dots z-[-1]"></div>
+
+    <!-- Decoration Icons -->
+    <i class="fa-solid fa-star text-4xl text-pop-blue absolute top-10 left-10 animate-spin-slow"></i>
+    <i class="fa-solid fa-heart text-4xl text-pop-pink absolute bottom-20 right-10 animate-bounce"></i>
+    <i class="fa-solid fa-bolt text-5xl text-white stroke-black absolute top-20 right-20 -rotate-12"
+      style="-webkit-text-stroke: 2px #333;"></i>
+
+    <div
+      class="bg-white inline-block px-8 py-4 rounded-full border-2 border-pop-dark shadow-hard mb-8 transform -rotate-2">
+      <span class="font-black text-pop-blue text-lg">🎉 10TH ANNIVERSARY 🎉</span>
+    </div>
+
+    <h1 class="text-6xl md:text-8xl font-black text-pop-dark leading-none mb-6 en-font">
+      HELLO<br>
+      <span class="text-white text-stroke-dark">GOPHERS!</span>
+    </h1>
+
+    <p class="text-xl font-bold bg-white/80 inline-block px-4 py-2 rounded-lg border-2 border-pop-dark">
+      2026.05.30 (土) @ 秋葉原
+    </p>
+
+    <!-- Main Image Area -->
+    <div class="mt-12 mx-auto max-w-4xl relative px-4">
+      <div
+        class="bg-white border-4 border-pop-dark rounded-[2rem] aspect-video flex items-center justify-center shadow-hard-lg overflow-hidden relative z-10">
+        <div class="text-center group">
+          <i
+            class="fa-brands fa-golang text-9xl text-pop-blue transform group-hover:scale-110 transition-transform duration-300"></i>
+          <p class="font-bold text-2xl mt-4 text-pop-dark">We are 10 years old!</p>
+        </div>
+      </div>
+      <!-- Background Blob -->
+      <div class="absolute -bottom-10 -right-4 w-40 h-40 bg-pop-pink rounded-full border-2 border-pop-dark z-0"></div>
+      <div class="absolute -top-10 -left-4 w-32 h-32 bg-pop-blue rounded-full border-2 border-pop-dark z-0"></div>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="bg-white py-20 border-y-4 border-pop-dark">
+    <div class="container mx-auto px-6 max-w-3xl text-center">
+      <h2 class="text-3xl font-black mb-8">お祭り騒ぎの準備はOK？</h2>
+      <p class="text-lg font-medium leading-loose mb-6">
+        Women Who Go Tokyoは、2026年で設立10周年！<br>
+        日本初のGo言語女性コミュニティとして、ここまで歩んでこれたのは皆さんのおかげです。<br>
+        久しぶりの方も、初めましての方も。<br>
+        <span
+          class="bg-pop-yellow px-1 border-b-2 border-pop-dark inline-block transform -rotate-1 mt-2">オフラインで集まって、ワイワイ盛り上がりましょう！</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Content -->
+  <section class="py-20 container mx-auto px-6">
+    <h2 class="text-4xl font-black text-center mb-12 text-pop-dark text-stroke-white">
+      EVENT CONTENTS
+    </h2>
+
+    <div
+      class="bg-pop-blue rounded-[2.5rem] p-8 md:p-12 border-4 border-pop-dark shadow-hard-lg text-white relative overflow-hidden">
+      <!-- Decorative circle -->
+      <div class="absolute -right-20 -top-20 w-64 h-64 bg-white/10 rounded-full"></div>
+
+      <div class="md:flex items-center gap-10 relative z-10">
+        <div class="md:w-1/3 mb-8 md:mb-0">
+          <div
+            class="bg-white aspect-square rounded-2xl border-4 border-pop-dark flex items-center justify-center text-pop-dark shadow-hard transform rotate-3 hover:rotate-0 transition-transform">
+            <i class="fa-solid fa-microchip text-8xl"></i>
+          </div>
+        </div>
+        <div class="md:w-2/3">
+          <span
+            class="bg-pop-yellow text-pop-dark px-3 py-1 font-black rounded-md text-sm mb-4 inline-block border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">WORKSHOP</span>
+          <h3 class="text-3xl md:text-4xl font-black mb-4">TinyGo Keeb<br>ワークショップ</h3>
+          <p class="font-bold mb-6 text-lg opacity-90">
+            〜自分だけのキーボードを作ろう〜
+          </p>
+          <p class="mb-6 font-medium leading-relaxed">
+            ハードウェア初めてでも大丈夫！はんだづけからデコレーションまで、
+            みんなで教え合いながら「世界に一つだけのキーボード」を作ります✨
+          </p>
+          <div
+            class="bg-white/20 p-4 rounded-xl border-2 border-white/40 backdrop-blur-sm inline-flex flex-col md:flex-row gap-4 font-bold">
+            <span><i class="fa-solid fa-check mr-1"></i> 初心者大歓迎！</span>
+            <span><i class="fa-solid fa-check mr-1"></i> TinyGoで動く！</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Info Cards -->
+  <section class="py-10 container mx-auto px-6">
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <!-- Card 1 -->
+      <div
+        class="bg-white p-6 rounded-2xl border-2 border-pop-dark shadow-hard hover:-translate-y-2 transition-transform cursor-default relative">
+        <div class="absolute -top-3 -right-3 bg-pop-pink w-8 h-8 rounded-full border-2 border-pop-dark"></div>
+        <div
+          class="bg-pop-yellow w-12 h-12 rounded-full flex items-center justify-center border-2 border-pop-dark mb-4 text-xl">
+          <i class="fa-regular fa-calendar"></i>
+        </div>
+        <h4 class="font-black text-xl mb-2">日時</h4>
+        <p class="font-bold">2026.5.30 (土)</p>
+      </div>
+      <!-- Card 2 -->
+      <div
+        class="bg-white p-6 rounded-2xl border-2 border-pop-dark shadow-hard hover:-translate-y-2 transition-transform cursor-default">
+        <div
+          class="bg-pop-pink w-12 h-12 rounded-full flex items-center justify-center border-2 border-pop-dark mb-4 text-xl text-white">
+          <i class="fa-solid fa-map-pin"></i>
+        </div>
+        <h4 class="font-black text-xl mb-2">場所</h4>
+        <p class="font-bold">秋葉原ビジネスセンター</p>
+      </div>
+      <!-- Card 3 -->
+      <div
+        class="bg-white p-6 rounded-2xl border-2 border-pop-dark shadow-hard hover:-translate-y-2 transition-transform cursor-default">
+        <div
+          class="bg-pop-blue w-12 h-12 rounded-full flex items-center justify-center border-2 border-pop-dark mb-4 text-xl text-white">
+          <i class="fa-solid fa-train"></i>
+        </div>
+        <h4 class="font-black text-xl mb-2">アクセス</h4>
+        <p class="font-bold text-sm">秋葉原駅 / 末広町駅</p>
+      </div>
+      <!-- Card 4 -->
+      <div
+        class="bg-white p-6 rounded-2xl border-2 border-pop-dark shadow-hard hover:-translate-y-2 transition-transform cursor-default">
+        <div
+          class="bg-gray-200 w-12 h-12 rounded-full flex items-center justify-center border-2 border-pop-dark mb-4 text-xl">
+          <i class="fa-solid fa-laptop"></i>
+        </div>
+        <h4 class="font-black text-xl mb-2">持ち物</h4>
+        <p class="font-bold text-sm">ワクワクする気持ち 🎉</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <div class="container mx-auto px-6 my-12">
+    <div class="bg-white p-2 border-4 border-pop-dark rounded-xl shadow-hard">
+      <iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://maps.google.com/maps?q=秋葉原ビジネスセンター&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        class="rounded-lg grayscale hover:grayscale-0 transition duration-500"></iframe>
+    </div>
+  </div>
+
+  <!-- Registration Section (Updated to Light Blue) -->
+  <section id="register" class="py-20 bg-pop-light border-y-4 border-pop-dark relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-10"
+      style="background-image: repeating-linear-gradient(45deg, #1a73e8 0, #1a73e8 1px, transparent 0, transparent 50%); background-size: 20px 20px;">
+    </div>
+
+    <div class="container mx-auto px-6 relative z-10 text-center">
+      <h2 class="text-4xl md:text-5xl font-black text-pop-blue mb-10 transform -rotate-2">
+        TICKET REGISTRATION 🎫
+      </h2>
+
+      <div class="bg-white max-w-2xl mx-auto p-8 md:p-12 rounded-[2.5rem] border-4 border-pop-dark shadow-hard-xl">
+        <h3 class="text-2xl font-black text-pop-dark mb-4">参加登録について</h3>
+        <p class="text-lg font-medium mb-8">
+          connpassから参加登録をお願いします！<br>
+        </p>
+
+        <button onclick="location.href = 'https://womenwhogo-tokyo.connpass.com/event/376133/'" class="bg-pop-blue text-white px-10 py-4 rounded-full font-bold border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]
+          hover:translate-y-[2px] hover:shadow-none transition-all text-xl mb-12">
+          <span class="relative z-10">connpass</span>
+        </button>
+
+        <div class="bg-pop-yellow/30 p-6 rounded-2xl border-2 border-pop-dark">
+          <p class="font-bold mb-4 text-pop-dark flex items-center justify-center gap-2">
+            <i class="fa-solid fa-bullhorn text-pop-blue"></i> 最新情報はXで発信中！
+          </p>
+          <a href="https://x.com/wwg_tokyo"
+            class="inline-flex items-center bg-black text-white px-8 py-3 rounded-full font-bold hover:bg-pop-blue transition-colors border-2 border-transparent hover:border-pop-dark">
+            <i class="fa-brands fa-x-twitter mr-2"></i>
+            フォローして待つ
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sponsors -->
+  <section class="py-20 container mx-auto px-6 text-center">
+    <div class="bg-white inline-block px-6 py-2 border-2 border-pop-dark shadow-hard mb-12 transform rotate-1">
+      <h2 class="text-2xl font-black text-pop-blue">SPONSORS WANTED!</h2>
+    </div>
+
+    <div class="flex justify-center flex-wrap gap-4 mb-8">
+      <!-- Fake Logos Styled -->
+      <div
+        class="bg-white w-32 h-20 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center font-bold text-gray-300">
+        LOGO</div>
+      <div
+        class="bg-white w-32 h-20 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center font-bold text-gray-300">
+        LOGO</div>
+      <div
+        class="bg-white w-32 h-20 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center font-bold text-gray-300">
+        LOGO</div>
+      <div
+        class="bg-white w-32 h-20 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center font-bold text-gray-300">
+        LOGO</div>
+    </div>
+
+    <p class="text-sm font-bold text-gray-500">※スポンサー様は引き続き募集中です</p>
+  </section>
+
+  <!-- Code of Conduct (Updated to Blue Accent) -->
+  <section class="pb-20 container mx-auto px-6">
+    <div
+      class="bg-white p-8 md:p-10 rounded-[2rem] border-4 border-pop-dark shadow-hard max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-start md:items-center">
+      <div class="shrink-0 flex justify-center w-full md:w-auto">
+        <div
+          class="w-20 h-20 bg-pop-blue rounded-full flex items-center justify-center border-2 border-pop-dark text-white text-3xl">
+          <i class="fa-solid fa-shield-halved"></i>
+        </div>
+      </div>
+      <div class="flex-grow text-left">
+        <h3 class="text-2xl font-black text-pop-dark mb-3">Code of Conduct</h3>
+        <p class="font-medium text-sm leading-relaxed mb-4">
+          Women Who Go Tokyoでは、すべての参加者が歓迎され、尊重されるコミュニティを目指しています。行動規範に違反するような行為を発見した場合は、イベントやコミュニティからの退出を求めます。
+        </p>
+        <a href="/"
+          class="inline-block font-bold text-pop-blue border-b-2 border-pop-blue hover:text-pop-dark hover:border-pop-dark transition-colors">
+          行動規範（Code of Conduct）を読む <i class="fa-solid fa-arrow-right ml-1"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-pop-dark text-white py-12 text-center mt-auto">
+    <div class="container mx-auto px-6">
+      <div class="flex justify-center items-center gap-3 mb-6 text-2xl font-black">
+        <i class="fa-brands fa-golang text-pop-yellow"></i>
+        <span>WWG<span class="text-pop-blue">.TOKYO</span></span>
+      </div>
+
+      <p class="font-bold mb-4">Contact: 10th@womenwhogo.tokyo</p>
+      <p class="text-xs text-gray-400">
+        Women Who Go Tokyo 主催 / 一般社団法人Gophers Japan 協賛<br>
+        &copy; Women Who Go Tokyo
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

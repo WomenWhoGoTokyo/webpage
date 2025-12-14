@@ -5,6 +5,8 @@ theme = "elate"
 
 [params]
   custom_css = ["css/custom.css"]
+  custom_js = ["js/custom.js"]
+
   author = "Women Who Go Tokyo"
   description = "Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。"
   email = "micchie@womenwhogo.tokyo"
