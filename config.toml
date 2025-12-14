@@ -202,7 +202,6 @@ theme = "elate"
       social = [
         ["icon-twitter", "https://twitter.com/mikkegt"],
         ["icon-dribbble", "#"],
-        ["icon-dribbble", "#"]
       ]
 
     [[params.about.item]]
