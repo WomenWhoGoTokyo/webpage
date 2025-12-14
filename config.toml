@@ -6,7 +6,6 @@ theme = "github.com/saey55/hugo-elate-theme"
 enableRobotsTXT = true
 canonifyURLs = true
 defaultContentLanguage = "ja"
-paginate = 10
 
 [module]
 [module.hugoVersion]
@@ -16,8 +15,6 @@ extended = true
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
-
-
 
 [params]
 custom_css = ["css/custom.css"]
