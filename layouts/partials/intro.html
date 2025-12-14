@@ -18,7 +18,6 @@
 		</div>
 		{{ if site.Params.intro.video.enable }}
 		<div class="row watch-video text-center to-animate">
-			<!-- <span>{{ with .Site.Params.intro.video }}{{ . }}{{ end }}</span> -->
 			<span>{{ site.Params.intro.video.title | markdownify }}</span>
 
 			<a href="{{ site.Params.intro.video.url }}" class="popup-vimeo btn-video"><i
