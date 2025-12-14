@@ -3,6 +3,11 @@ languageCode = "ja"
 title = "Women Who Go Tokyo"
 theme = "github.com/saey55/hugo-elate-theme"
 
+enableRobotsTXT = true
+canonifyURLs = true
+defaultContentLanguage = "ja"
+paginate = 10
+
 [module]
 [module.hugoVersion]
 min = "0.152.0"
@@ -12,10 +17,7 @@ extended = true
 [markup.goldmark.renderer]
 unsafe = true
 
-enableRobotsTXT = true
-canonifyURLs = true
-defaultContentLanguage = "ja"
-paginate = 10
+
 
 [params]
 custom_css = ["css/custom.css"]
