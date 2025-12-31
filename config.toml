@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://web.womenwhogo.tokyo/"
 languageCode = "ja"
 title = "Women Who Go Tokyo"
 theme = "github.com/saey55/hugo-elate-theme"
