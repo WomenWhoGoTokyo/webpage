@@ -80,7 +80,8 @@
 
     <!-- Decoration Icons -->
     <i class="fa-solid fa-star text-4xl text-pop-blue absolute top-10 left-10 animate-spin-slow" aria-hidden="true"></i>
-    <i class="fa-solid fa-heart text-4xl text-pop-pink absolute bottom-20 right-10 animate-bounce" aria-hidden="true"></i>
+    <i class="fa-solid fa-heart text-4xl text-pop-pink absolute bottom-20 right-10 animate-bounce"
+      aria-hidden="true"></i>
     <i class="fa-solid fa-bolt text-5xl text-white stroke-black absolute top-20 right-20 -rotate-12"
       style="-webkit-text-stroke: 2px #333;" aria-hidden="true"></i>
 
@@ -176,37 +177,6 @@
     </div>
   </section>
 
-  <div
-    class="bg-pop-blue rounded-[2.5rem] p-8 md:p-12 border-4 border-pop-dark shadow-hard-lg text-white relative overflow-hidden">
-    <div class="absolute -right-20 -top-20 w-64 h-64 bg-white/10 rounded-full"></div>
-
-    <div class="md:flex items-center gap-10 relative z-10">
-      <div class="md:w-1/3 mb-8 md:mb-0">
-        <div
-          class="bg-white aspect-square rounded-2xl border-4 border-pop-dark flex items-center justify-center text-pop-dark shadow-hard transform rotate-3 hover:rotate-0 transition-transform">
-          <i class="fa-solid fa-microchip text-8xl"></i>
-        </div>
-      </div>
-      <div class="md:w-2/3">
-        <span
-          class="bg-pop-yellow text-pop-dark px-3 py-1 font-black rounded-md text-sm mb-4 inline-block border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">WORKSHOP</span>
-        <h3 class="text-3xl md:text-4xl font-black mb-4">TinyGo Keeb<br>ワークショップ</h3>
-        <p class="font-bold mb-6 text-lg opacity-90">
-          〜自分だけのキーボードを作ろう〜
-        </p>
-        <p class="mb-6 font-medium leading-relaxed">
-          ハードウェアが初めてでも大丈夫！はんだづけからデコレーションまで、
-          みんなで教え合いながら「世界に一つだけのキーボード」を作ります✨
-        </p>
-        <div
-          class="bg-white/20 p-4 rounded-xl border-2 border-white/40 backdrop-blur-sm inline-flex flex-col md:flex-row gap-4 font-bold">
-          <span><i class="fa-solid fa-check mr-1"></i> 初心者大歓迎！</span>
-          <span><i class="fa-solid fa-check mr-1"></i> TinyGoで動く！</span>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Gallery Section -->
   <section class="py-20 bg-pop-yellow border-y-4 border-pop-dark relative overflow-hidden">
     <div class="absolute inset-0 opacity-20"
@@ -231,8 +201,7 @@
         <div
           class="bg-white p-3 pb-8 rounded-sm shadow-hard border-2 border-pop-dark transform rotate-2 hover:rotate-0 hover:scale-105 transition-all duration-300 z-20">
           <div class="aspect-[4/3] bg-gray-200 border-2 border-pop-dark mb-3 overflow-hidden">
-            <img src="/images/10th-anniversary/tinygoconf02.jpg" alt="LTセッションの様子"
-              class="w-full h-full object-cover">
+            <img src="/images/10th-anniversary/tinygoconf02.jpg" alt="LTセッションの様子" class="w-full h-full object-cover">
           </div>
           <p class="font-handwriting text-center font-bold text-pop-dark -rotate-1">LT Session 🎤</p>
         </div>
@@ -240,8 +209,7 @@
         <div
           class="bg-white p-3 pb-8 rounded-sm shadow-hard border-2 border-pop-dark transform -rotate-1 hover:rotate-0 hover:scale-105 transition-all duration-300 z-10">
           <div class="aspect-[4/3] bg-gray-200 border-2 border-pop-dark mb-3 overflow-hidden">
-            <img src="/images/10th-anniversary/tinygoconf03.jpg" alt="展示物などを楽しむ参加者"
-              class="w-full h-full object-cover">
+            <img src="/images/10th-anniversary/tinygoconf03.jpg" alt="展示物などを楽しむ参加者" class="w-full h-full object-cover">
           </div>
           <p class="font-handwriting text-center font-bold text-pop-dark rotate-2">Happy 10th! 🎂</p>
         </div>
@@ -253,8 +221,68 @@
     </div>
   </section>
 
+  <!-- Workshops Section -->
+  <section class="py-20 bg-white relative">
+    <div class="container mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- TinyGo Keeb ワークショップ -->
+        <a href="https://tinygo-keeb.org/blog/?p=14" target="_blank" rel="noopener noreferrer"
+          class="bg-pop-blue rounded-[2.5rem] p-8 border-4 border-pop-dark shadow-hard-lg text-white relative overflow-hidden block hover:scale-[1.02] transition-transform">
+          <div class="absolute -right-16 -top-16 w-48 h-48 bg-white/10 rounded-full"></div>
+          <div class="relative z-10">
+            <div
+              class="bg-white w-24 h-24 rounded-2xl border-4 border-pop-dark flex items-center justify-center text-pop-dark shadow-hard transform rotate-3 mb-6">
+              <i class="fa-solid fa-microchip text-4xl"></i>
+            </div>
+            <span
+              class="bg-pop-yellow text-pop-dark px-3 py-1 font-black rounded-md text-sm mb-4 inline-block border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">WORKSHOP</span>
+            <h3 class="text-2xl md:text-3xl font-black mb-3">TinyGo Keeb<br>ワークショップ</h3>
+            <p class="font-bold mb-4 text-base opacity-90">
+              〜自分だけのキーボードを作ろう〜
+            </p>
+            <p class="mb-5 font-medium leading-relaxed text-sm">
+              ハードウェアが初めてでも大丈夫！はんだごての使い方から、基板の組み立てまで
+              TinyGo Keebのみなさんに教えてもらいながら「世界に一つだけのキーボード」を作ります✨
+            </p>
+            <div
+              class="bg-white/20 p-3 rounded-xl border-2 border-white/40 backdrop-blur-sm inline-flex flex-col gap-2 font-bold text-sm">
+              <span><i class="fa-solid fa-check mr-1"></i> 初心者大歓迎！</span>
+              <span><i class="fa-solid fa-check mr-1"></i> TinyGoで動く！</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- キーキャップおしゃれワークショップ -->
+        <a href="https://tinygo-keeb.org/blog/?p=32" target="_blank" rel="noopener noreferrer"
+          class="bg-pop-pink rounded-[2.5rem] p-8 border-4 border-pop-dark shadow-hard-lg text-white relative overflow-hidden block hover:scale-[1.02] transition-transform">
+          <div class="absolute -right-16 -top-16 w-48 h-48 bg-white/10 rounded-full"></div>
+          <div class="relative z-10">
+            <div
+              class="bg-white w-24 h-24 rounded-2xl border-4 border-pop-dark flex items-center justify-center text-pop-dark shadow-hard transform -rotate-3 mb-6">
+              <i class="fa-solid fa-palette text-4xl"></i>
+            </div>
+            <span
+              class="bg-pop-yellow text-pop-dark px-3 py-1 font-black rounded-md text-sm mb-4 inline-block border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">WORKSHOP</span>
+            <h3 class="text-2xl md:text-3xl font-black mb-3">キーキャップおしゃれ<br>ワークショップ</h3>
+            <p class="font-bold mb-4 text-base opacity-90">
+              ジェルネイルを使って透明なキーキャップを自分好みにデコレーション！<br>
+              おしゃれなキーキャップで、毎日のタイピングがもっと楽しくなること間違いなし✨
+            </p>
+            <p class="mb-5 font-medium leading-relaxed text-sm">
+              もう1つのワークショップも登壇と並行して開催予定です。
+              詳細が決まり次第お知らせします！
+            </p>
+            <div
+              class="bg-white/20 p-3 rounded-xl border-2 border-white/40 backdrop-blur-sm inline-flex flex-col gap-2 font-bold text-sm">
+              <span><i class="fa-solid fa-check mr-1"></i> お子さんOK!</span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- Time Table -->
-  <!-- TODO: Twitter handle を設定してください。ハンドル設定後、各登壇者のアバターを <img src="https://unavatar.io/x/{username}" alt="..." class="w-12 h-12 rounded-full border-2 border-pop-dark object-cover"> に差し替えてください -->
   <section class="py-20 bg-pop-light border-y-4 border-pop-dark relative overflow-hidden">
     <div class="absolute inset-0 opacity-20"
       style="background-image: radial-gradient(#333 15%, transparent 16%); background-size: 24px 24px;"></div>
@@ -265,170 +293,337 @@
         TIME TABLE
       </h2>
 
-      <div class="max-w-2xl mx-auto space-y-8">
+      <div class="max-w-2xl mx-auto space-y-3">
 
-        <!-- 30min Session -->
-        <div>
-          <div class="flex items-center gap-3 mb-4">
-            <span class="bg-pop-blue text-white px-4 py-2 rounded-full font-black text-sm border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">
-              🎤 30min Session
-            </span>
-          </div>
-          <div class="space-y-3">
-            <!-- turbofish 13:00-13:30 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-blue shrink-0">13:00</span>
-                <span class="font-black text-sm text-pop-dark truncate">turbofish</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-            <!-- あおい 13:30-14:00 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-blue shrink-0">13:30</span>
-                <span class="font-black text-sm text-pop-dark truncate">あおい</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-
-            <!-- 休憩 14:00-14:15 -->
-            <div class="flex items-center gap-3 py-2">
-              <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
-              <span class="text-pop-dark/50 font-bold text-xs shrink-0">☕ 休憩 14:00 - 14:15</span>
-              <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
-            </div>
-
-            <!-- micchie 14:15-14:45 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-blue shrink-0">14:15</span>
-                <span class="font-black text-sm text-pop-dark truncate">micchie</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-            <!-- chiyo 14:45-15:15 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-blue shrink-0">14:45</span>
-                <span class="font-black text-sm text-pop-dark truncate">chiyo</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
+        <div class="bg-white/80 rounded-xl border-2 border-pop-dark/40 px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-black text-pop-dark/60 shrink-0">12:30 - 13:00</span>
+            <span class="font-black text-sm text-pop-dark">受付</span>
           </div>
         </div>
 
-        <!-- 休憩 (セッション間) 15:15-15:30 -->
+        <div class="bg-white/80 rounded-xl border-2 border-pop-dark/40 px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-black text-pop-dark/60 shrink-0">13:00 - 13:15</span>
+            <span class="font-black text-sm text-pop-dark">オープニング</span>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-black text-amber-600 shrink-0">13:15</span>
+            <span
+              class="bg-pop-yellow text-pop-dark text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">Sponsor
+              LT</span>
+            <span class="font-black text-sm text-pop-dark truncate">WAKE Career様</span>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer"
+              class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+              <img src="/images/10th-anniversary/speakers/wake_career.png" alt="WAKE Career"
+                class="w-full h-full object-cover">
+            </a>
+          </div>
+          <p class="text-sm text-gray-500 font-bold">スポンサーセッション</p>
+        </div>
+
+        <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-black text-amber-600 shrink-0">13:20</span>
+            <span
+              class="bg-pop-yellow text-pop-dark text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">Sponsor
+              LT</span>
+            <span class="font-black text-sm text-pop-dark truncate">転職ドラフト様</span>
+            <a href="https://x.com/tensyoku_draft" target="_blank" rel="noopener noreferrer"
+              class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+              <img src="/images/10th-anniversary/speakers/tensyoku_draft.png" alt="転職ドラフト"
+                class="w-full h-full object-cover">
+            </a>
+          </div>
+          <p class="text-sm text-gray-500 font-bold">スポンサーセッション</p>
+        </div>
+
+        <!-- ワークショップ同時開催エリア 13:25-15:25 -->
+        <div class="relative border-l-4 border-blue-400 pl-4 space-y-3">
+          <div class="bg-blue-50 rounded-xl border-2 border-blue-400 px-4 py-3">
+            <div class="flex items-center gap-2 mb-2">
+              <span class="text-lg">🔧</span>
+              <div>
+                <p class="font-black text-sm text-blue-700">同時開催ワークショップ</p>
+                <p class="text-xs text-blue-600">13:25 - 15:25 / 登壇と並行して開催されます</p>
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div class="bg-white rounded-lg border border-blue-300 px-3 py-2">
+                <p class="font-black text-xs text-blue-700">🔧 基板 & キーキャップおしゃれワークショップ</p>
+                <p class="text-[10px] text-blue-600 mt-1">by TinyGo Keeb</p>
+              </div>
+              <div class="bg-white rounded-lg border border-blue-300 px-3 py-2">
+                <p class="font-black text-xs text-blue-700">🎨 ワークショップ（仮）</p>
+                <p class="text-[10px] text-blue-600 mt-1">内容は近日公開</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-black text-pop-blue shrink-0">13:25</span>
+              <span
+                class="bg-pop-blue text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">30min</span>
+              <span class="font-black text-sm text-pop-dark truncate">turbofish</span>
+              <a href="https://x.com/turbofish_" target="_blank" rel="noopener noreferrer"
+                class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+                <img src="/images/10th-anniversary/speakers/turbofish_.png" alt="turbofish"
+                  class="w-full h-full object-cover">
+              </a>
+            </div>
+            <p class="text-sm text-gray-500 font-bold">Simple, Reliable, and Efficient Go</p>
+            <details class="mt-2 group/detail">
+              <summary
+                class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+                <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+                詳しく見る
+              </summary>
+              <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+                <p>
+                  Goは、シンプルで安全かつスケーラブルなソフトウェア開発を支援することを目的として設計されています。Goのシンプルな文法、強力な並行処理、高速なコンパイルと実行性能といった特徴は、システムのパフォーマンスを最大化させる大きな武器になります。
+                  本セッションではまず、言語仕様の制約によるトレードオフや、開発時に直面し得る課題、他言語との比較を通じ、Goが提供する機能がいかに具体的課題を解決し、どのような開発体験をもたらすのかを紐解きます。そのうえで、複数の開発現場での知見に基づき、Goの設計思想が実際の開発プロセスや運用、ひいてはシステムのアーキテクチャ設計と開発チームにどう影響するのかについて考察します。実例を交えた考察により、参加者の皆様とともにGoの言語思想への理解を深める一助となれば幸いです。
+                </p>
+                <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                    class="font-bold text-gray-600">Profile:
+                  </span>
+                  エンタープライズ領域から大規模BtoCサービスまで、多様なドメインにおけるシステム基盤およびプロダクトの開発経験を持つ。クラウドを活用したアーキテクチャ設計、および高性能、高可用なアプリケーション開発を得意とし、DevOpsの実践を通じてシステムの信頼性とチームの機動力を支えるエンジニアリング環境を追求している。エンジニア1年目のときWoman
+                  Who Go Tokyoのイベントに参加したことをきっかけに、コミュニティでの執筆や登壇などの機会を得た。</p>
+              </div>
+            </details>
+          </div>
+
+          <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-black text-pop-pink shrink-0">13:55</span>
+              <span
+                class="bg-pop-pink text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">10min</span>
+              <span class="font-black text-sm text-pop-dark truncate">さき (H.Saki)</span>
+              <a href="https://x.com/saki_engineer" target="_blank" rel="noopener noreferrer"
+                class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+                <img src="/images/10th-anniversary/speakers/saki_engineer.png" alt="さき (H.Saki)"
+                  class="w-full h-full object-cover">
+              </a>
+            </div>
+            <p class="text-sm text-gray-500 font-bold">さきさん文庫の書籍ができるまで(仮)</p>
+            <details class="mt-2 group/detail">
+              <summary
+                class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+                <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+                詳しく見る
+              </summary>
+              <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+                <p>
+                  筆者は本業はクラウドインフラ屋で、仕事でGoのコードをゴリゴリ書いているわけではありません。それでもGoのコミュニティに貢献できる書籍をいくつも世に送りだすことができました。それを支える勉強と執筆のノウハウを公開します。
+                </p>
+                <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                    class="font-bold text-gray-600">Profile:
+                  </span>本業はクラウドエンジニアをしています。
+                  プライベートでまったりGoを触りながら、得られた知見をZennに投稿したり同人誌にまとめて技術書典に出したりするのが趣味です。</p>
+              </div>
+            </details>
+          </div>
+
+          <div class="flex items-center gap-3 py-2">
+            <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
+            <span class="text-pop-dark/50 font-bold text-xs shrink-0">☕ 休憩 14:05 - 14:15</span>
+            <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
+          </div>
+
+          <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-black text-pop-blue shrink-0">14:15</span>
+              <span
+                class="bg-pop-blue text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">30min</span>
+              <span class="font-black text-sm text-pop-dark truncate">chiyo</span>
+              <a href="https://x.com/chiyotn" target="_blank" rel="noopener noreferrer"
+                class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+                <img src="/images/10th-anniversary/speakers/chiyotn.png" alt="chiyo" class="w-full h-full object-cover">
+              </a>
+            </div>
+            <p class="text-sm text-gray-500 font-bold">Goのご縁が繋いでくれた10年</p>
+            <details class="mt-2 group/detail">
+              <summary
+                class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+                <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+                詳しく見る
+              </summary>
+              <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+                <p>Goに出会ってから約10年、海外移住・出産・フリーランス転向などを通してGoを書き続けてきた経験を雑多にお話できたらいいなと思っています（技術的な話はたぶんぜんしません...！）</p>
+                <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                    class="font-bold text-gray-600">Profile:
+                  </span>サーバサイドエンジニアをやっています。</p>
+              </div>
+            </details>
+          </div>
+
+          <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-black text-pop-pink shrink-0">14:45</span>
+              <span
+                class="bg-pop-pink text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">10min</span>
+              <span class="font-black text-sm text-pop-dark truncate">marie</span>
+              <a href="https://x.com/mororo_yoshida" target="_blank" rel="noopener noreferrer"
+                class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+                <img src="/images/10th-anniversary/speakers/mororo_yoshida.png" alt="marie"
+                  class="w-full h-full object-cover">
+              </a>
+            </div>
+            <p class="text-sm text-gray-500 font-bold">（仮）プログラミング初学者が Gopherを目指した話</p>
+            <details class="mt-2 group/detail">
+              <summary
+                class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+                <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+                詳しく見る
+              </summary>
+              <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+                <p>（仮）非エンジニアからこうやって勉強しましたという話をするつもりです。</p>
+                <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                    class="font-bold text-gray-600">Profile:
+                  </span>普段はバックエンドとWEBをみています。学べば学ぶほど深いエンジニアリングにゆっくりと溺れていきたい
+                </p>
+              </div>
+            </details>
+          </div>
+
+          <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="text-xs font-black text-pop-blue shrink-0">14:55</span>
+              <span
+                class="bg-pop-blue text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">30min</span>
+              <span class="font-black text-sm text-pop-dark truncate">あおい</span>
+              <a href="https://x.com/_a0i" target="_blank" rel="noopener noreferrer"
+                class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+                <img src="/images/10th-anniversary/speakers/_a0i.png" alt="あおい" class="w-full h-full object-cover">
+              </a>
+            </div>
+            <p class="text-sm text-gray-500 font-bold">インフラが苦手でも大丈夫！ 紙芝居 Kubernetes</p>
+            <details class="mt-2 group/detail">
+              <summary
+                class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+                <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+                詳しく見る
+              </summary>
+              <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+                <p>
+                  Dockerやコンテナ技術のことは知っているけれど、その先でよく聞くKubernetesって何？インフラのことはあまりよくわからないんだけれど、Kubernetesについて勉強しないといけないよね・・・そう思っている開発者の方は多いのではないでしょうか。このセッションではイラストを用いながら「Kubernetesとは何か」「Kubernetesを用いたアプリケーション開発をどのように進めていけばよいか」を説明します。
+                </p>
+                <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                    class="font-bold text-gray-600">Profile:
+                  </span>
+                  メーカーでソフトウェアエンジニアを経験後、現在はIT企業で教育系プロダクトのSREとして従事しています。著書『つくって、壊して、直して学ぶKubernetes入門』『つくって、壊して、直して学ぶGit&GitHub入門』では、本文執筆に加えてイラストや漫画も手がけました。Kubernetesをより多くの人に親しみやすく届ける方法を日々考えています。
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <!-- ワークショップ同時開催エリア ここまで -->
+
         <div class="flex items-center gap-3 py-2">
           <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
-          <span class="text-pop-dark/50 font-bold text-xs shrink-0">☕ 休憩 15:15 - 15:30</span>
+          <span class="text-pop-dark/50 font-bold text-xs shrink-0">☕ 休憩 15:25 - 15:40</span>
           <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
         </div>
 
-        <!-- 10min Short Session -->
-        <div>
-          <div class="flex items-center gap-3 mb-4">
-            <span class="bg-pop-pink text-white px-4 py-2 rounded-full font-black text-sm border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">
-              ⚡ 10min Short Session
-            </span>
+        <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-black text-pop-pink shrink-0">15:40</span>
+            <span
+              class="bg-pop-pink text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">10min</span>
+            <span class="font-black text-sm text-pop-dark truncate">mom0tomo</span>
+            <a href="https://x.com/mom0tomo" target="_blank" rel="noopener noreferrer"
+              class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+              <img src="/images/10th-anniversary/speakers/mom0tomo.png" alt="mom0tomo"
+                class="w-full h-full object-cover">
+            </a>
           </div>
-          <div class="space-y-3">
-            <!-- H.Saki 15:30-15:40 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-pink shrink-0">15:30</span>
-                <span class="font-black text-sm text-pop-dark truncate">H.Saki</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
+          <p class="text-sm text-gray-500 font-bold">生成AI時代にも強いGo</p>
+          <details class="mt-2 group/detail">
+            <summary
+              class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+              <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+              詳しく見る
+            </summary>
+            <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+              <p>
+                猫も杓子も生成AIという時代で、特定の言語を深く学ぶ意味がどれだけあるのか、疑問に思ったことがある方もいるのではないでしょうか。この発表では、Goの強みを再確認し、なぜ生成AI時代にこそGoなのか？という話をします。（仮）
+              </p>
+              <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                  class="font-bold text-gray-600">Profile:
+                </span>
+                Women Who Go
+                Tokyoスタッフ。行政職員（山形県庁）・バックエンドエンジニアを経て現在はインフラエンジニアと社内DXチームのリーダーを兼務。最近は生成AIの普及に関する仕事を頑張っています。</p>
             </div>
-            <!-- ふみふみ 15:40-15:50 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-pink shrink-0">15:40</span>
-                <span class="font-black text-sm text-pop-dark truncate">ふみふみ</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-            <!-- momo 15:50-16:00 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-pink shrink-0">15:50</span>
-                <span class="font-black text-sm text-pop-dark truncate">momo</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-            <!-- marie 16:00-16:10 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-pop-pink shrink-0">16:00</span>
-                <span class="font-black text-sm text-pop-dark truncate">marie</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
-          </div>
+          </details>
         </div>
 
-        <!-- 休憩 (セッション間) 16:10-16:25 -->
-        <div class="flex items-center gap-3 py-2">
-          <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
-          <span class="text-pop-dark/50 font-bold text-xs shrink-0">☕ 休憩 16:10 - 16:25</span>
-          <div class="flex-grow border-t-2 border-dashed border-pop-dark/30"></div>
+        <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-black text-pop-blue shrink-0">15:50</span>
+            <span
+              class="bg-pop-blue text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">30min</span>
+            <span class="font-black text-sm text-pop-dark truncate">micchie</span>
+            <a href="https://x.com/micchiebear" target="_blank" rel="noopener noreferrer"
+              class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+              <img src="/images/10th-anniversary/speakers/micchiebear.png" alt="micchie"
+                class="w-full h-full object-cover">
+            </a>
+          </div>
+          <p class="text-sm text-gray-500 font-bold">（仮）</p>
+          <details class="mt-2 group/detail">
+            <summary
+              class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+              <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+              詳しく見る
+            </summary>
+            <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+              <p>（仮）</p>
+              <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                  class="font-bold text-gray-600">Profile:
+                </span>Project Manager、Engineering Manager、Backend
+                Engineer、Operation Designなどの経験を経て、現在はCorporate IT Engineerとして活動しています。
+                エンジニアのキャリア形成や、これからのエンジニアリング組織のあり方を形づくることに関心があり、変化と成長の多い環境を楽しみながら取り組んでいます。
+                プライベートでは一般社団法人Gophers Japanの一員としてWomen Who Go TokyoをはじめとしたGoコミュニティの活動に注力しています。
+                また、TinyGo Keebというチームのメンバーとして「TinyGo Keeb Tour」という全国ツアーを無期限開催中です。</p>
+            </div>
+          </details>
         </div>
 
-        <!-- 5min Sponsor LT -->
-        <div>
-          <div class="flex items-center gap-3 mb-4">
-            <span class="bg-pop-yellow text-pop-dark px-4 py-2 rounded-full font-black text-sm border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]">
-              🏢 5min Sponsor LT
-            </span>
+        <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
+          <div class="flex items-center gap-2 mb-1">
+            <span class="text-xs font-black text-pop-pink shrink-0">16:20</span>
+            <span
+              class="bg-pop-pink text-white text-[10px] font-black px-2 py-0.5 rounded-full border border-pop-dark shrink-0">10min</span>
+            <span class="font-black text-sm text-pop-dark truncate">ふみふみ</span>
+            <a href="https://x.com/2323_code" target="_blank" rel="noopener noreferrer"
+              class="w-7 h-7 rounded-full bg-gray-200 border border-pop-dark/20 shrink-0 overflow-hidden block">
+              <img src="/images/10th-anniversary/speakers/2323_code.png" alt="ふみふみ" class="w-full h-full object-cover">
+            </a>
           </div>
-          <div class="space-y-3">
-            <!-- WAKE Career 16:25-16:30 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-amber-600 shrink-0">16:25</span>
-                <span class="font-black text-sm text-pop-dark truncate">WAKE Career</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
+          <p class="text-sm text-gray-500 font-bold">RustとGoに絡む...何か...</p>
+          <details class="mt-2 group/detail">
+            <summary
+              class="text-sm text-pop-blue font-bold cursor-pointer list-none [&::-webkit-details-marker]:hidden inline-flex items-center gap-1">
+              <i class="fa-solid fa-chevron-right text-[10px] group-open/detail:rotate-90 transition-transform"></i>
+              詳しく見る
+            </summary>
+            <div class="mt-2 space-y-2 text-sm text-gray-600 leading-relaxed">
+              <p>お手柔らかにお願いします...！</p>
+              <p class="border-t border-gray-200 pt-2 text-xs text-gray-500"><span
+                  class="font-bold text-gray-600">Profile:
+                </span>可愛いものが好きです！</p>
             </div>
-            <!-- 転職ドラフト 16:30-16:35 -->
-            <div class="bg-white rounded-xl border-2 border-pop-dark shadow-hard px-4 py-3">
-              <div class="flex items-center gap-3 mb-1">
-                <span class="text-xs font-black text-amber-600 shrink-0">16:30</span>
-                <span class="font-black text-sm text-pop-dark truncate">転職ドラフト</span>
-                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" class="text-pop-dark/40 hover:text-pop-blue transition-colors text-sm ml-auto shrink-0">
-                  <i class="fa-brands fa-x-twitter"></i>
-                </a>
-              </div>
-              <p class="text-xs text-gray-500 font-bold pl-10">トークタイトル（仮）</p>
-            </div>
+          </details>
+        </div>
+
+        <!-- 16:30-16:45 クロージング -->
+        <div class="bg-white/80 rounded-xl border-2 border-pop-dark/40 px-4 py-3">
+          <div class="flex items-center gap-2">
+            <span class="text-xs font-black text-pop-dark/60 shrink-0">16:30 - 16:45</span>
+            <span class="font-black text-sm text-pop-dark">クロージング</span>
           </div>
         </div>
 
@@ -518,7 +713,8 @@
         </p>
 
         <a href="https://womenwhogo-tokyo.connpass.com/event/376133/" class="bg-pop-blue text-white px-10 py-4 rounded-full font-bold border-2 border-pop-dark shadow-[2px_2px_0px_0px_#333]
-          hover:translate-y-[2px] hover:shadow-none transition-all text-xl mb-12 inline-block text-center" role="button">
+          hover:translate-y-[2px] hover:shadow-none transition-all text-xl mb-12 inline-block text-center"
+          role="button">
           <span class="relative z-10">connpass</span>
         </a>
 
@@ -546,12 +742,13 @@
       <!-- Sponsor Logos -->
       <div
         class="bg-white w-48 h-24 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center p-4 overflow-hidden">
-        <a href="https://wake-career.jp/" target="_blank"><img src="/images/10th-anniversary/wake_career.png" alt="WAKE Career様のロゴ"
-          class="max-w-full max-h-full object-contain"></a>
+        <a href="https://wake-career.jp/" target="_blank"><img src="/images/10th-anniversary/sponsors/wake_career.png"
+            alt="WAKE Career様のロゴ" class="max-w-full max-h-full object-contain"></a>
       </div>
       <div
         class="bg-white w-48 h-24 rounded-xl border-2 border-pop-dark shadow-sm flex items-center justify-center p-4 overflow-hidden">
-        <a href="https://job-draft.jp/" target="_blank"><img src="/images/10th-anniversary/job_draft.png" alt="転職ドラフト様のロゴ" class="max-w-full max-h-full object-contain"></a>
+        <a href="https://job-draft.jp/" target="_blank"><img src="/images/10th-anniversary/sponsors/job_draft.png"
+            alt="転職ドラフト様のロゴ" class="max-w-full max-h-full object-contain"></a>
       </div>
     </div>
   </section>
