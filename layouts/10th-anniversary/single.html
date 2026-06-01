@@ -10,8 +10,84 @@
   <meta property="og:description" content="{{ .Params.description }}">
   <meta property="og:type" content="article">
   <meta property="og:url" content="{{ .Permalink }}">
-  <meta property="og:image" content="/images/10th-anniversary/ogp.png">
+  <meta property="og:image" content="{{ "images/10th-anniversary/ogp.png" | absURL }}">
   <link rel="icon" href="/images/favicon.ico">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@wwg_tokyo">
+  <meta name="twitter:title" content="{{ .Title }}">
+  <meta name="twitter:description" content="{{ .Params.description }}">
+  <meta name="twitter:image" content="{{ "images/10th-anniversary/ogp.png" | absURL }}">
+
+  <!-- JSON-LD: Event -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Event",
+    "name": "Women Who Go Tokyo 10周年記念イベント",
+    "description": "Women Who Go Tokyo 10周年記念イベント。2026年5月30日（土）に秋葉原で開催。TinyGo Keeb / すいラボによるワークショップ、登壇セッション、スポンサーLTを実施しました。",
+    "startDate": "2026-05-30T13:00:00+09:00",
+    "endDate": "2026-05-30T16:45:00+09:00",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+    "location": {
+      "@type": "Place",
+      "name": "秋葉原ビジネスセンター AP秋葉原 5F",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "千代田区",
+        "addressRegion": "東京都",
+        "addressCountry": "JP"
+      }
+    },
+    "image": ["{{ "images/10th-anniversary/ogp.png" | absURL }}"],
+    "url": "{{ .Permalink }}",
+    "organizer": {
+      "@type": "Organization",
+      "name": "Women Who Go Tokyo",
+      "url": "{{ .Site.BaseURL }}",
+      "sameAs": [
+        "https://x.com/wwg_tokyo",
+        "https://womenwhogo-tokyo.connpass.com/"
+      ]
+    },
+    "sponsor": [
+      { "@type": "Organization", "name": "WAKE Career", "url": "https://wake-career.jp/" },
+      { "@type": "Organization", "name": "転職ドラフト", "url": "https://job-draft.jp/" },
+      { "@type": "Organization", "name": "Gophers Japan", "url": "https://gophers.jp/" },
+      { "@type": "Organization", "name": "JLCPCB", "url": "https://jlcpcb.com/jp/" }
+    ],
+    "performer": [
+      { "@type": "Person", "name": "turbofish", "sameAs": "https://x.com/turbofish_" },
+      { "@type": "Person", "name": "さき (H.Saki)", "sameAs": "https://x.com/saki_engineer" },
+      { "@type": "Person", "name": "chiyo", "sameAs": "https://x.com/chiyotn" },
+      { "@type": "Person", "name": "marie", "sameAs": "https://x.com/mororo_yoshida" },
+      { "@type": "Person", "name": "あおい", "sameAs": "https://x.com/_a0i" },
+      { "@type": "Person", "name": "mom0tomo", "sameAs": "https://x.com/mom0tomo" },
+      { "@type": "Person", "name": "ふみふみ", "sameAs": "https://x.com/2323_code" }
+    ]
+  }
+  </script>
+
+  <!-- JSON-LD: Organization -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Women Who Go Tokyo",
+    "alternateName": "WWG Tokyo",
+    "description": "Women Who Go Tokyo は、サンフランシスコ発祥の女性とジェンダーマイノリティの人々があつまる Go 言語のコミュニティである Women Who Go の東京支部です。",
+    "url": "{{ .Site.BaseURL }}",
+    "logo": "{{ "images/favicon.ico" | absURL }}",
+    "sameAs": [
+      "https://x.com/wwg_tokyo",
+      "https://www.youtube.com/channel/UCXjeaS6CWwuNVBOIytnDIdg",
+      "https://womenwhogo-tokyo.connpass.com/",
+      "https://github.com/WomenWhoGoTokyo"
+    ]
+  }
+  </script>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
