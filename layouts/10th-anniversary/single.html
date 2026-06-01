@@ -6,11 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }} | {{ .Site.Title }}</title>
   <meta name="description" content="{{ .Params.description }}">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#1a73e8">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Open Graph -->
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{ .Params.description }}">
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:locale" content="ja_JP">
   <meta property="og:image" content="{{ "images/10th-anniversary/ogp.png" | absURL }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Women Who Go Tokyo 10周年記念イベントのOGP画像">
   <link rel="icon" href="/images/favicon.ico">
 
   <!-- Twitter Card -->
@@ -19,6 +29,7 @@
   <meta name="twitter:title" content="{{ .Title }}">
   <meta name="twitter:description" content="{{ .Params.description }}">
   <meta name="twitter:image" content="{{ "images/10th-anniversary/ogp.png" | absURL }}">
+  <meta name="twitter:image:alt" content="Women Who Go Tokyo 10周年記念イベントのOGP画像">
 
   <!-- JSON-LD: Event -->
   <script type="application/ld+json">

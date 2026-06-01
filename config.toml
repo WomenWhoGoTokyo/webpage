@@ -2,6 +2,7 @@ baseURL = "https://web.womenwhogo.tokyo/"
 languageCode = "ja"
 title = "Women Who Go Tokyo"
 theme = "elate"
+enableRobotsTXT = true
 
 [params]
   custom_css = ["css/custom.css"]
